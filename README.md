@@ -24,5 +24,26 @@
   </tr>
 </table>
 
+## ĐỀ TÀI: QUẢN LÝ BÁN LAPTOP
+## APP
+Chức năng:
+1. Đăng kí, đăng nhập
+2. Thêm xóa sửa tìm kiếm sản phẩm
+3. Tính năng mua hàng
+4. Quản lý đơn hàng
+5. Quản lý tài khoản
+
+## Web
+Chức năng: 
+1. Đăng kí, đăng nhập
+2. Xem thông tin sản phẩm
+3. Tính năng mua hàng
+4. Quản lý đơn hàng
+5. Quản lý tài khoản
+
+## AI
+Chức năng: Chat tư vấn sản phẩm, tư vấn sửa chữa(cây quyết định).
+
+
 
 
