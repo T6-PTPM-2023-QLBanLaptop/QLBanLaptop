@@ -2,7 +2,8 @@
 ## Tên dự án: QLBanLaptop
 
 ## Mục tiêu đề tài:
- 
++ Mục tiêu ngắn hạn:
++ Mục tiêu dài hạn:
 ## Mô tả đề tài:
 
 ## Danh sách thành viên:
