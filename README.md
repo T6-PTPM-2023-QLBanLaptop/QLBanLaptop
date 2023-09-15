@@ -81,6 +81,10 @@ Chức năng:
 3. Tính năng mua hàng
 
 ## AI
-Chức năng: Chat tư vấn sản phẩm, tư vấn sửa chữa(cây quyết định).
+Chức năng: Chat tư vấn sản phẩm, tư vấn sửa chữa(cây quyết định).<br>
+LinkDemo:<br>
+https://www.kaggle.com/<br>
+https://dotnet.microsoft.com/en-us/apps/machinelearning-ai/ml-dotnet<br>
+https://accord-framework.net/
 
 
