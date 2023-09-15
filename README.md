@@ -1,2 +1,1 @@
-# ptpm_quanlylaptop
-# Hello12345
+# ptpm_quanlylaptopHello12345
