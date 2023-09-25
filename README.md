@@ -32,40 +32,6 @@
 
 ## ĐỀ TÀI: QUẢN LÝ BÁN LAPTOP
 
-<table>
-  <tr>
-    <th>App</th>
-    <th>Chức năng</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td>1. Đăng kí, đăng nhập<br>
-        2. Thêm xóa sửa tìm kiếm sản phẩm<br>
-        3. Tính năng mua hàng<br>
-        4. Quản lý đơn hàng
-    </td>
-  </tr>
-  <tr>
-    <th>Web</th>
-    <th>Chức năng</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td>1. Đăng kí, đăng nhập<br>
-      2. Xem thông tin sản phẩm<br>
-      3. Tính năng mua hàng</td>
-  </tr>
-   <tr>
-    <th>AI</th>
-    <th>Chức năng</th>
-  </tr>
-   <tr>
-    <td></td>
-    <td>Chat tư vấn sản phẩm, tư vấn sửa chữa(cây quyết định).</td>
-  </tr>
- 
-</table>
-
 ## APP
 Chức năng:
 1. Đăng kí, đăng nhập
