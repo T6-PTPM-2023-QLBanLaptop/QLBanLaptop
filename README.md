@@ -1,5 +1,5 @@
 # PROJECT QUẢN LÝ CỬA HÀNG BÁN LAPTOP
-## Tên dự án: QLBanLaptop
+## Tên dự án: QLShopLaptop
 
 ## Mục tiêu đề tài:
 + Mục tiêu ngắn hạn: Phát triển và triển khai ứng dụng di động và trang web cơ bản với đăng kí, đăng nhập, xem sản phẩm, mua hàng, và quản lý tài khoản, Xây dựng cơ sở dữ liệu sản phẩm với thông tin cơ bản,
