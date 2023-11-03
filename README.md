@@ -49,7 +49,7 @@ Chức năng:
     </tr>
     <tr>
         <td>2</td>
-        <td>Thêm xóa sửa tìm kiếm sản phẩm</td>
+        <td>Quản lý sản phẩm</td>
         <td>
             - Thêm sản phẩm mới với thông tin chi tiết như tên, mô tả, giá cả, hình ảnh.<br>
             - Xóa sản phẩm không còn cần thiết hoặc cập nhật thông tin sản phẩm.<br>
