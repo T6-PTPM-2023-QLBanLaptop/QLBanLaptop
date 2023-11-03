@@ -34,7 +34,7 @@ tạo giao diện thân thiện và thử nghiệm người dùng và thiết l�
 
 ## ĐỀ TÀI: QUẢN LÝ BÁN LAPTOP
 
-## APP
+## Phần mềm
 Chức năng:
 <table border="1">
     <tr>
