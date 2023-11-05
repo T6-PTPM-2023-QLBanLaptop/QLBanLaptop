@@ -47,7 +47,7 @@ class Users extends DB implements IModel
                         ':dob' => $dob
                     ));
                 } else return $check;
-            } else return 'Hai mật khảu không khớp';
+            } else return 'Hai mật khẩu không khớp';
         } catch (\Throwable $th) {
             echo $th->getMessage();
         }

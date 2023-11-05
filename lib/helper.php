@@ -1,5 +1,5 @@
 <?php
-require_once('D:/xampp/htdocs/Baitap/shoplaptop/shoplaptop/db.php');
+require_once('D:\Xampp\htdocs\shoplaptop\db.php');
 $pdo = new DB();
 $pdo = $pdo->getPDO();
 $pdo->exec('set names utf8');

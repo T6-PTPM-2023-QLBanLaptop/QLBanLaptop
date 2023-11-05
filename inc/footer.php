@@ -1,11 +1,11 @@
-<div class="footer-top-area">
+<div class="footer-top-area" style="margin-bottom: -80px;">
     <div class="zigzag-bottom"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="footer-about-us">
                     <h2><span>SHOPLAPTOP</span></h2>
-                    <p>Mua PC Gaming, laptop gaming, card màn hình, chuột máy tính, màn hình máy tính, máy tính để bàn, ghế gaming, thiết bị chơi game như Asus ROG Ally hàng đầu Việt Nam bảo hành chính hãng. Mua online nhận ưu đãi hấp dẫn với nhiều chương trình đặc biệt như ngày 8/3, b2s, noel...</p>
+                    <p>Mua PC Gaming, laptop gaming, card màn hình, chuột máy tính, màn hình máy tính, máy tính để bàn, ghế gaming, thiết bị chơi game như Asus ROG Ally hàng đầu Việt Nam bảo hành chính hãng. Mua online nhận ưu đãi hấp dẫn với nhiều chương trình đặc biệt như ngày 8/3</p>
                     <div class="footer-social">
                         <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                         <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
