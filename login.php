@@ -36,33 +36,28 @@ if (isset($_POST['login'])) {
         <div class="d-flex justify-content-center h-100">
             <div class="card">
                 <div class="card-header">
-                    <h3>Đăng Nhập<h3>
+                    <h3>Đăng nhập<h3>
                 </div>
                 <div class="card-body">
                     <form method="post" action="">
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-user"></i></span>
-                            </div>
-                            <input type="text" name="username" class="form-control" placeholder="username" required>
-                        </div>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-key"></i></span>
-                            </div>
-                            <input type="password" name="password" class="form-control" placeholder="password" required>
-                        </div>
-                        <div class="row align-items-center remember">
-                            <input type="checkbox" checked="checked" name="remember">Nhớ tài khoản
+                        <div class="form-group">
+                            <label for="username">Tài khoản</label>
+                            <input type="text" name="username" class="form-control" id="username" placeholder="Enter username" required>
                         </div>
                         <div class="form-group">
-                            <input type="submit" name="login" value="Đăng Nhập" class="btn float-right login_btn">
+                            <label for="password">Mật khẩu</label>
+                            <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
                         </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="remember" name="remember" checked="checked">
+                            <label class="form-check-label" for="remember">Nhớ tài khoản</label>
+                        </div>
+                        <button type="submit" name="login" class="btn btn-primary">Đăng nhập</button>
                     </form>
                 </div>
                 <div class="card-footer">
                     <div class="d-flex justify-content-center links">
-                        Chưa có tài khoản ?<a href="register.php">Đăng ký</a>
+                        Bạn chưa có tài khoản?<a href="register.php">Đăng kí</a>
                     </div>
                     <div class="d-flex justify-content-center">
                         <a href="#">Quên mật khẩu?</a>
@@ -72,5 +67,4 @@ if (isset($_POST['login'])) {
         </div>
     </div>
 </body>
-
 </html>

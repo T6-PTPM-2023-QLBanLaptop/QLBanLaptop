@@ -61,78 +61,57 @@ if (isset($_POST['register'])) {
         <div class="d-flex justify-content-center h-100">
             <div class="card">
                 <div class="card-header">
-                    <h3>Đăng ký<h3>
-                            <div class="d-flex justify-content-end social_icon">
-                            </div>
+                    <h3>Đăng ký</h3>
                 </div>
                 <div class="card-body">
                     <form method="post" action="">
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-user"></i></span>
-                            </div>
-                            <input type="text" name="username" class="form-control" value="<?php if (isset($result_check) && $result_check == 'OK') echo $username; ?>" placeholder="username" required>
-                            <input type="submit" name="checkUser" value="Check">
+                        <div class="form-group">
+                            <label for="username">Username:</label>
+                            <input type="text" name="username" class="form-control" value="<?php if (isset($result_check) && $result_check == 'OK') echo $username; ?>" id="username" placeholder="Username" required>
+                            <button type="submit" name="checkUser" class="btn btn-primary">Check</button>
                         </div>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-key"></i></span>
-                            </div>
-                            <input type="password" name="password" class="form-control" placeholder="password" required>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
                         </div>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-key"></i></span>
-                            </div>
-                            <input type="password" name="passwordR" class="form-control" placeholder="Re enter password" required>
+                        <div class="form-group">
+                            <label for="passwordR">Re-enter Password:</label>
+                            <input type="password" name="passwordR" class="form-control" id="passwordR" placeholder="Re-enter Password" required>
                         </div>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-user"></i></span>
-                            </div>
-                            <input type="email" name="email" class="form-control" value="<?php if (isset($result_check) && $result_check == 'OK') echo $email; ?>" placeholder="email" required>
-                            <input type="submit" name="checkEmail" value="Check">
-                        </div>
-
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-user"></i></span>
-                            </div>
-                            <input type="text" name="full_name" class="form-control" placeholder="Họ và tên">
-                        </div>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-user"></i></span>
-                            </div>
-                            <input type="text" name="address" class="form-control" placeholder="Quận huyện tên đường, số nhà">
-
-                        </div>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-user"></i></span>
-                            </div>
-
-                            <input type="date" name="dob" class="form-control" placeholder="Ngày sinh">
-                        </div>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-user"></i></span>
-                            </div>
-                            <input type="text" name="city" class="form-control" placeholder="Thành phố">
-                        </div>
-                        <div class="input-group form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-user"></i></span>
-                            </div>
-                            <input type="number" name="phone" class="form-control" placeholder="SĐT">
-                        </div>
-
-                        <div class="row align-items-center remember">
-                            <input type="checkbox" checked="checked" name="remember">Nhớ tài khoản
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" class="form-control" value="<?php if (isset($result_check) && $result_check == 'OK') echo $email; ?>" id="email" placeholder="Email" required>
+                            <button type="submit" name="checkEmail" class="btn btn-primary">Check</button>
                         </div>
 
                         <div class="form-group">
-                            <input type="submit" name="register" value="Đăng ký" class="btn float-right login_btn">
+                            <label for="full_name">Họ và tên:</label>
+                            <input type="text" name="full_name" class="form-control" id="full_name" placeholder="Họ và tên">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Quận huyện tên đường, số nhà:</label>
+                            <input type="text" name="address" class="form-control" id="address" placeholder="Quận huyện tên đường, số nhà">
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Ngày sinh:</label>
+                            <input type="date" name="dob" class="form-control" id="dob">
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Thành phố:</label>
+                            <input type="text" name="city" class="form-control" id="city" placeholder="Thành phố">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Số điện thoại:</label>
+                            <input type="number" name="phone" class="form-control" id="phone" placeholder="Số điện thoại">
+                        </div>
+
+                        <div class="form-check">
+                            <input type="checkbox" checked="checked" class="form-check-input" name="remember" id="remember">
+                            <label class="form-check-label" for="remember">Nhớ tài khoản</label>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" name="register" class="btn btn-primary float-right">Đăng ký</button>
                         </div>
                     </form>
                 </div>
