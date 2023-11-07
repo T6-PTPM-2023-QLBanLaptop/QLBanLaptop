@@ -8,5 +8,10 @@ namespace DTO
 {
     public class SanPham
     {
+        public string MaSP { get; set; }
+        public string TenSP { get; set; }
+        public int SoLuong { get; set; }
+        public int GiaBan { get; set; }
+        public string MaNCC { get; set; }
     }
 }

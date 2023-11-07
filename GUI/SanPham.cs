@@ -16,5 +16,20 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void sANPHAMBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.sANPHAMBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.qLShoplaptopDataSet);
+
+        }
+
+        private void SanPham_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'qLShoplaptopDataSet.SANPHAM' table. You can move, or remove it, as needed.
+            this.sANPHAMTableAdapter.Fill(this.qLShoplaptopDataSet.SANPHAM);
+
+        }
     }
 }

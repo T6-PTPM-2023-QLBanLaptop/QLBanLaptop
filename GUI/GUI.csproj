@@ -50,6 +50,11 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="QLShoplaptopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLShoplaptopDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SanPham.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +96,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="QLShoplaptopDataSet.xsc">
+      <DependentUpon>QLShoplaptopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLShoplaptopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLShoplaptopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLShoplaptopDataSet.xss">
+      <DependentUpon>QLShoplaptopDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
