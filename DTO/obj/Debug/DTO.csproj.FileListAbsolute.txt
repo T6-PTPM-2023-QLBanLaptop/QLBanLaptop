@@ -1,0 +1,5 @@
+D:\HOCTAP\PTUDPMTM\QLShopLaptop\DTO\bin\Debug\DTO.dll
+D:\HOCTAP\PTUDPMTM\QLShopLaptop\DTO\bin\Debug\DTO.pdb
+D:\HOCTAP\PTUDPMTM\QLShopLaptop\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\HOCTAP\PTUDPMTM\QLShopLaptop\DTO\obj\Debug\DTO.dll
+D:\HOCTAP\PTUDPMTM\QLShopLaptop\DTO\obj\Debug\DTO.pdb

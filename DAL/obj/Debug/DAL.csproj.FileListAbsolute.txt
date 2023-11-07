@@ -1,0 +1,4 @@
+D:\HOCTAP\PTUDPMTM\QLShopLaptop\DAL\bin\Debug\DAL.dll
+D:\HOCTAP\PTUDPMTM\QLShopLaptop\DAL\bin\Debug\DAL.pdb
+D:\HOCTAP\PTUDPMTM\QLShopLaptop\DAL\obj\Debug\DAL.dll
+D:\HOCTAP\PTUDPMTM\QLShopLaptop\DAL\obj\Debug\DAL.pdb
