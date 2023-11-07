@@ -83,22 +83,10 @@ Chức năng:
 </table>
 
 ## WEB
-Chức năng:
+Chức năng: Xem thông tin Sản phẩm
 
-<table border="1">
-    <tr>
-        <th>STT</th>
-        <th>Tên Tính Năng</th>
-        <th>Mô Tả</th>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Xem thông tin Sản phẩm</td>
-        <td>
-            - Hiển thị danh sách sản phẩm với thông tin chi tiết.<br>
-            - Cho phép người dùng xem hình ảnh và thông số kỹ thuật của sản phẩm.
-        </td>
-    </tr>
+Hiển thị danh sách sản phẩm với thông tin chi tiết.<br>
+Cho phép người dùng xem hình ảnh và thông số kỹ thuật của sản phẩm.
 </table>
 
 ## AI
