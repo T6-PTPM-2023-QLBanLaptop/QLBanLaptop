@@ -92,26 +92,11 @@ Chức năng:
         <th>Mô Tả</th>
     </tr>
     <tr>
-        <td>1</td>
-        <td>Đăng kí và Đăng nhập</td>
-        <td>
-            - Cung cấp giao diện cho người dùng đăng kí và đăng nhập tài khoản.
-        </td>
-    </tr>
-    <tr>
         <td>2</td>
         <td>Xem thông tin Sản phẩm</td>
         <td>
             - Hiển thị danh sách sản phẩm với thông tin chi tiết.<br>
             - Cho phép người dùng xem hình ảnh và thông số kỹ thuật của sản phẩm.
-        </td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Tính năng Mua hàng</td>
-        <td>
-            - Hiển thị giỏ hàng ở trang web và tổng tiền.<br>
-            - Liên kết đến quá trình thanh toán.
         </td>
     </tr>
 </table>
