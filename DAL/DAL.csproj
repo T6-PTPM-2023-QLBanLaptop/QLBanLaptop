@@ -40,6 +40,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseDAL.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="QLSHOPLAPTOP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLSHOPLAPTOP.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SanPhamDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaiKhoanDAL.cs" />
@@ -49,6 +59,24 @@
       <Project>{bab5cc09-e05a-42ee-9787-1d0c92429116}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QLSHOPLAPTOP.xsc">
+      <DependentUpon>QLSHOPLAPTOP.xsd</DependentUpon>
+    </None>
+    <None Include="QLSHOPLAPTOP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLSHOPLAPTOP.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QLSHOPLAPTOP.xss">
+      <DependentUpon>QLSHOPLAPTOP.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

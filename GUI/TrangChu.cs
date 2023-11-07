@@ -22,5 +22,12 @@ namespace GUI
         {
             Application.Exit();
         }
+
+        private void sảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SanPham sp = new SanPham();
+            sp.Show();
+            this.Hide();
+        }
     }
 }

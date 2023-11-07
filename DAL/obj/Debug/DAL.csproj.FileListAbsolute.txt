@@ -9,3 +9,4 @@ D:\HOCTAP\QLBanLaptop\DAL\bin\Debug\DTO.pdb
 D:\HOCTAP\QLBanLaptop\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\HOCTAP\QLBanLaptop\DAL\obj\Debug\DAL.dll
 D:\HOCTAP\QLBanLaptop\DAL\obj\Debug\DAL.pdb
+D:\HOCTAP\QLBanLaptop\DAL\bin\Debug\DAL.dll.config

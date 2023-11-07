@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using BLL;
+using DTO;
 
 namespace WebGUI
 {
@@ -11,7 +13,9 @@ namespace WebGUI
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            SanPhamBLL spbll = new SanPhamBLL();
+            GridView1.DataSource = spbll.GetSanPham();
+            GridView1.DataBind();
         }
     }
 }
