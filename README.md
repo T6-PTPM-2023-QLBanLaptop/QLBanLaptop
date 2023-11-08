@@ -51,9 +51,10 @@ Chức năng:
         <td>2</td>
         <td>Quản lý sản phẩm</td>
         <td>
-            - Thêm sản phẩm mới với thông tin chi tiết như tên, mô tả, giá cả, hình ảnh.<br>
-            - Xóa sản phẩm không còn cần thiết hoặc cập nhật thông tin sản phẩm.<br>
-            - Tìm kiếm sản phẩm theo tên sản phẩm.
+            - Thêm sản phẩm mới<br>
+            - Xóa sản phẩm <br>
+            - Sửa sản phẩm <br>
+            - Tìm kiếm sản phẩm].
         </td>
     </tr>
     <tr>
