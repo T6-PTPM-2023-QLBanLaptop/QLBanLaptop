@@ -83,11 +83,7 @@ Chức năng:
 </table>
 
 ## WEB
-Chức năng: Xem thông tin Sản phẩm
-
-Hiển thị danh sách sản phẩm với thông tin chi tiết.<br>
-Cho phép người dùng xem hình ảnh và thông số kỹ thuật của sản phẩm.
-</table>
+Chức năng: Xem thông tin Sản phẩm, iển thị danh sách sản phẩm với thông tin chi tiết.<br>
 
 ## AI
 Chức năng: Chat tư vấn sản phẩm, tư vấn sửa chữa(cây quyết định).<br>
