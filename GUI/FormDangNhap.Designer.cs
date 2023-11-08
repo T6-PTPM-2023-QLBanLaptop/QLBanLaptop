@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class DangNhap
+    partial class FormDangNhap
     {
         /// <summary>
         /// Required designer variable.

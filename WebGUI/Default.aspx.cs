@@ -14,7 +14,7 @@ namespace WebGUI
         protected void Page_Load(object sender, EventArgs e)
         {
             SanPhamBLL spbll = new SanPhamBLL();
-            GridView1.DataSource = spbll.GetSanPham();
+            GridView1.DataSource = spbll.LoadSanPham();
             GridView1.DataBind();
         }
     }
