@@ -14,5 +14,10 @@ namespace DAL
             string tk = CheckLoginTK(taikhoan);
             return tk;
         }
+
+        public bool DoiMK(TaiKhoan taikhoan, string matKhauMoi)
+        {
+            return DoiMatKhau(taikhoan, matKhauMoi);
+        }
     }
 }

@@ -13,14 +13,24 @@ namespace BLL
     {
         SanPhamDAL dalsp = new SanPhamDAL();
 
-        public SanPhamBLL()
-        {
-
-        }
-
-        public DataTable GetSanPham()
+        public DataTable LoadSanPham()
         {
             return dalsp.LoadSanPham();
+        }
+
+        public void ThemSanPham(SanPham pSanPham)
+        {
+            dalsp.ThemSanPham(pSanPham);
+        }
+
+        public void XoaSanPham(string maSanPham)
+        {
+            dalsp.XoaSanPham(maSanPham);
+        }
+
+        public void SuaSanPham(SanPham pSanPham)
+        {
+            dalsp.SuaSanPham(pSanPham);
         }
     }
 }

@@ -49,5 +49,22 @@ namespace DAL
 
             return user;
         }
+
+        public static bool DoiMatKhau(TaiKhoan taikhoan, string matKhauMoi)
+        {
+            SqlConnection conn = SqlConnectionData.Connect();
+            conn.Open();
+            SqlCommand command = new SqlCommand("proc_DoiMatKhau", conn);
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@tenTaiKhoan", taikhoan.TenTaiKhoan);
+            command.Parameters.AddWithValue("@matKhauMoi", matKhauMoi);
+
+            int rowsAffected = command.ExecuteNonQuery();
+
+            conn.Close();
+
+            return rowsAffected > 0; 
+        }
+
     }
 }

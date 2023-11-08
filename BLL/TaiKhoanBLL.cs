@@ -26,5 +26,10 @@ namespace BLL
             string kttk = tk.CheckLogin(taikhoan);
             return kttk;
         }
+
+        public bool ChangePassword(TaiKhoan taiKhoan, string newPassword)
+        {
+            return tk.DoiMK(taiKhoan, newPassword);
+        }
     }
 }

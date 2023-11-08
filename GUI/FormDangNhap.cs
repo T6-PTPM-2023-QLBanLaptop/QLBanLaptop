@@ -12,12 +12,12 @@ using BLL;
 
 namespace GUI
 {
-    public partial class DangNhap : Form
+    public partial class FormDangNhap : Form
     {
         TaiKhoan taikhoan = new TaiKhoan();
         TaiKhoanBLL tkbll = new TaiKhoanBLL();
 
-        public DangNhap()
+        public FormDangNhap()
         {
             InitializeComponent();
         }
@@ -45,7 +45,7 @@ namespace GUI
             }
 
             MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            TrangChu trangChu = new TrangChu();
+            FormTrangChu trangChu = new FormTrangChu();
             trangChu.Show();
             this.Hide();
         }

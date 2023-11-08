@@ -11,9 +11,11 @@ using BLL;
 
 namespace GUI
 {
-    public partial class TrangChu : Form
+    public partial class FormTrangChu : Form
     {
-        public TrangChu()
+        TaiKhoanBLL tkbll = new TaiKhoanBLL();
+
+        public FormTrangChu()
         {
             InitializeComponent();
         }
@@ -25,9 +27,24 @@ namespace GUI
 
         private void sảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SanPham sp = new SanPham();
+            FormSanPham sp = new FormSanPham();
             sp.Show();
             this.Hide();
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDangNhap dn = new FormDangNhap();
+            dn.Show();
+            this.Hide();
+        }
+
+        private void đổiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDoiMatKhau dmk = new FormDoiMatKhau();
+            dmk.Show();
+            this.Hide();
+
         }
     }
 }
