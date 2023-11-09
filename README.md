@@ -54,7 +54,7 @@ Chức năng:
             - Thêm sản phẩm mới<br>
             - Xóa sản phẩm <br>
             - Sửa sản phẩm <br>
-            - Tìm kiếm sản phẩm].
+            - Tìm kiếm sản phẩm.
         </td>
     </tr>
     <tr>
@@ -84,7 +84,7 @@ Chức năng:
 </table>
 
 ## WEB
-Chức năng: Xem thông tin Sản phẩm, iển thị danh sách sản phẩm với thông tin chi tiết.<br>
+Chức năng: Xem thông tin Sản phẩm, hiển thị danh sách sản phẩm với thông tin chi tiết.<br>
 
 ## AI
 Chức năng: Chat tư vấn sản phẩm, tư vấn sửa chữa(cây quyết định).<br>
