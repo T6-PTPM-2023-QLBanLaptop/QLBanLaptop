@@ -1,0 +1,11 @@
+D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\ThietKeControls.dll
+D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\ThietKeControls.pdb
+D:\HOCTAP\QLBanLaptop\ThietKeControls\obj\Debug\ThietKeControls.dll
+D:\HOCTAP\QLBanLaptop\ThietKeControls\obj\Debug\ThietKeControls.pdb
+D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\BLL.dll
+D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\DTO.dll
+D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\DAL.dll
+D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\BLL.pdb
+D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\DTO.pdb
+D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\DAL.pdb
+D:\HOCTAP\QLBanLaptop\ThietKeControls\obj\Debug\ThietKeControls.csprojResolveAssemblyReference.cache
