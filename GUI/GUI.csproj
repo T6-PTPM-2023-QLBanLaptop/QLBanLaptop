@@ -129,6 +129,10 @@
       <Project>{bab5cc09-e05a-42ee-9787-1d0c92429116}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ThietKeControls\ThietKeControls.csproj">
+      <Project>{a70cb6c9-f0ee-4184-a4bb-ed70c0982bb6}</Project>
+      <Name>ThietKeControls</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

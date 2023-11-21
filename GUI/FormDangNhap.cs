@@ -24,7 +24,7 @@ namespace GUI
 
         private void btn_dangnhap_Click(object sender, EventArgs e)
         {
-            taikhoan.TenTaiKhoan = txt_tentaikhoan.Text;
+            taikhoan.TenTaiKhoan = txt_taikhoan.Text;
             taikhoan.MatKhau = txt_matkhau.Text;
 
             string getuser = tkbll.CheckLogin(taikhoan);
@@ -46,6 +46,7 @@ namespace GUI
 
             MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             FormTrangChu trangChu = new FormTrangChu();
+            trangChu.UpdateStatusBar(txt_taikhoan.Text);
             trangChu.Show();
             this.Hide();
         }

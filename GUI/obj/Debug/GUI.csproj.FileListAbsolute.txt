@@ -17,3 +17,5 @@ D:\HOCTAP\QLBanLaptop\GUI\obj\Debug\GUI.FormDangNhap.resources
 D:\HOCTAP\QLBanLaptop\GUI\obj\Debug\GUI.FormDoiMatKhau.resources
 D:\HOCTAP\QLBanLaptop\GUI\obj\Debug\GUI.FormSanPham.resources
 D:\HOCTAP\QLBanLaptop\GUI\obj\Debug\GUI.FormTrangChu.resources
+D:\HOCTAP\QLBanLaptop\GUI\bin\Debug\ThietKeControls.dll
+D:\HOCTAP\QLBanLaptop\GUI\bin\Debug\ThietKeControls.pdb

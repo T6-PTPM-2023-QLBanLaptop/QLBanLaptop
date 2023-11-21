@@ -44,7 +44,11 @@ namespace GUI
             FormDoiMatKhau dmk = new FormDoiMatKhau();
             dmk.Show();
             this.Hide();
+        }
 
+        public void UpdateStatusBar(string username)
+        {
+            txt_statusbar.Text = "Chào mừng: " + username;
         }
     }
 }
