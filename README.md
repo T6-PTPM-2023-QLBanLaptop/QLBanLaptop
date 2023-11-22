@@ -54,7 +54,6 @@ Chức năng:
             - Thêm sản phẩm mới<br>
             - Xóa sản phẩm <br>
             - Sửa sản phẩm <br>
-            - Tìm kiếm sản phẩm.
         </td>
     </tr>
     <tr>
