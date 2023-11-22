@@ -11,23 +11,23 @@ tạo giao diện thân thiện và thử nghiệm người dùng và thiết l�
 ## Danh sách thành viên:
 <table>
   <tr>
+    <th>MSSV</th>
     <th>Họ tên</th>
-    <th>Mã số SV</th>
     <th>Công việc</th>
   </tr>
   <tr>
-    <td>Đặng Nhật Duy</td>
     <td>2001200750</td>
+    <td>Đặng Nhật Duy</td>
     <td></td>
   </tr>
   <tr>
-    <td>Đặng Khánh Duy</td>
     <td>2001200050</td>
+    <td>Đặng Khánh Duy</td>
     <td></td>
   </tr>
   <tr>
-    <td>Nguyễn Minh Khoa</td>
     <td>2001200775</td>
+    <td>Nguyễn Minh Khoa</td>
     <td></td>
   </tr>
 </table>
