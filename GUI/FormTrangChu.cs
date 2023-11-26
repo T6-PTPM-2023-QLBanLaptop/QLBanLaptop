@@ -46,9 +46,18 @@ namespace GUI
             this.Hide();
         }
 
+        
+        private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormKhachHang kh = new FormKhachHang();
+            kh.Show();
+            this.Hide();
+        }
+        
         public void UpdateStatusBar(string username)
         {
             txt_statusbar.Text = "Chào mừng: " + username;
         }
+
     }
 }

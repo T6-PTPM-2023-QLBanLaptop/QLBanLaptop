@@ -4782,11 +4782,16 @@ SELECT MaKH, TenKH, NgaySinh, GioiTinh, DiaChi, SDT FROM KHACHHANG WHERE (MaKH =
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT MaKH, TenKH, NgaySinh, GioiTinh, DiaChi, SDT FROM dbo.KHACHHANG";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = "SELECT COUNT(*) AS Expr1\r\nFROM     KHACHHANG\r\nWHERE  (MaKH = @MaKH)";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MaKH", global::System.Data.SqlDbType.NVarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "MaKH", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5075,6 +5080,40 @@ SELECT MaKH, TenKH, NgaySinh, GioiTinh, DiaChi, SDT FROM KHACHHANG WHERE (MaKH =
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
         public virtual int Update(string TenKH, global::System.Nullable<global::System.DateTime> NgaySinh, string GioiTinh, string DiaChi, global::System.Nullable<int> SDT, string Original_MaKH, string Original_TenKH, global::System.Nullable<global::System.DateTime> Original_NgaySinh, string Original_GioiTinh, string Original_DiaChi, global::System.Nullable<int> Original_SDT) {
             return this.Update(Original_MaKH, TenKH, NgaySinh, GioiTinh, DiaChi, SDT, Original_MaKH, Original_TenKH, Original_NgaySinh, Original_GioiTinh, Original_DiaChi, Original_SDT);
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual global::System.Nullable<int> KTKCKH(string MaKH) {
+            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[1];
+            if ((MaKH == null)) {
+                throw new global::System.ArgumentNullException("MaKH");
+            }
+            else {
+                command.Parameters[0].Value = ((string)(MaKH));
+            }
+            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
+            if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
+                        != global::System.Data.ConnectionState.Open)) {
+                command.Connection.Open();
+            }
+            object returnValue;
+            try {
+                returnValue = command.ExecuteScalar();
+            }
+            finally {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
+                    command.Connection.Close();
+                }
+            }
+            if (((returnValue == null) 
+                        || (returnValue.GetType() == typeof(global::System.DBNull)))) {
+                return new global::System.Nullable<int>();
+            }
+            else {
+                return new global::System.Nullable<int>(((int)(returnValue)));
+            }
         }
     }
     
