@@ -99,12 +99,14 @@ namespace GUI
             this.kHACHHANGTableAdapter.Fill(this.qLShoplaptopDataSet.KHACHHANG);
         }
 
-        private void btn_thoat_Click(object sender, EventArgs e)
+        private void btn_clear_Click(object sender, EventArgs e)
         {
-            this.Close();
-            FormTrangChu trangChu = new FormTrangChu();
-            trangChu.Show();
-            this.Hide();
+            maKHTextBox.Clear();
+            tenKHTextBox.Clear();
+            gioiTinhTextBox.Clear();
+            diaChiTextBox.Clear();
+            sDTTextBox.Clear();
+            ngaySinhDateTimePicker.Value = DateTime.Now;
         }
     }
 }

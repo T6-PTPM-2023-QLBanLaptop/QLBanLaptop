@@ -36,27 +36,26 @@
             System.Windows.Forms.Label diaChiLabel;
             System.Windows.Forms.Label sDTLabel;
             this.kHACHHANGDataGridView = new System.Windows.Forms.DataGridView();
-            this.maKHTextBox = new System.Windows.Forms.TextBox();
-            this.tenKHTextBox = new System.Windows.Forms.TextBox();
-            this.ngaySinhDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.gioiTinhTextBox = new System.Windows.Forms.TextBox();
-            this.diaChiTextBox = new System.Windows.Forms.TextBox();
-            this.sDTTextBox = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.btn_thoat = new System.Windows.Forms.Button();
-            this.btn_sua = new System.Windows.Forms.Button();
-            this.btn_xoa = new System.Windows.Forms.Button();
-            this.btn_them = new System.Windows.Forms.Button();
-            this.kHACHHANGBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.qLShoplaptopDataSet = new GUI.QLShoplaptopDataSet();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kHACHHANGBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qLShoplaptopDataSet = new GUI.QLShoplaptopDataSet();
+            this.maKHTextBox = new System.Windows.Forms.TextBox();
+            this.tenKHTextBox = new System.Windows.Forms.TextBox();
+            this.ngaySinhDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.gioiTinhTextBox = new System.Windows.Forms.TextBox();
+            this.diaChiTextBox = new System.Windows.Forms.TextBox();
+            this.sDTTextBox = new System.Windows.Forms.TextBox();
+            this.btn_sua = new System.Windows.Forms.Button();
+            this.btn_xoa = new System.Windows.Forms.Button();
+            this.btn_them = new System.Windows.Forms.Button();
             this.kHACHHANGTableAdapter = new GUI.QLShoplaptopDataSetTableAdapters.KHACHHANGTableAdapter();
             this.tableAdapterManager = new GUI.QLShoplaptopDataSetTableAdapters.TableAdapterManager();
+            this.btn_clear = new System.Windows.Forms.Button();
             maKHLabel = new System.Windows.Forms.Label();
             tenKHLabel = new System.Windows.Forms.Label();
             ngaySinhLabel = new System.Windows.Forms.Label();
@@ -71,7 +70,7 @@
             // maKHLabel
             // 
             maKHLabel.AutoSize = true;
-            maKHLabel.Location = new System.Drawing.Point(59, 100);
+            maKHLabel.Location = new System.Drawing.Point(45, 26);
             maKHLabel.Name = "maKHLabel";
             maKHLabel.Size = new System.Drawing.Size(105, 17);
             maKHLabel.TabIndex = 1;
@@ -80,7 +79,7 @@
             // tenKHLabel
             // 
             tenKHLabel.AutoSize = true;
-            tenKHLabel.Location = new System.Drawing.Point(59, 146);
+            tenKHLabel.Location = new System.Drawing.Point(45, 72);
             tenKHLabel.Name = "tenKHLabel";
             tenKHLabel.Size = new System.Drawing.Size(111, 17);
             tenKHLabel.TabIndex = 3;
@@ -89,7 +88,7 @@
             // ngaySinhLabel
             // 
             ngaySinhLabel.AutoSize = true;
-            ngaySinhLabel.Location = new System.Drawing.Point(60, 202);
+            ngaySinhLabel.Location = new System.Drawing.Point(46, 128);
             ngaySinhLabel.Name = "ngaySinhLabel";
             ngaySinhLabel.Size = new System.Drawing.Size(71, 17);
             ngaySinhLabel.TabIndex = 5;
@@ -98,7 +97,7 @@
             // gioiTinhLabel
             // 
             gioiTinhLabel.AutoSize = true;
-            gioiTinhLabel.Location = new System.Drawing.Point(606, 96);
+            gioiTinhLabel.Location = new System.Drawing.Point(604, 22);
             gioiTinhLabel.Name = "gioiTinhLabel";
             gioiTinhLabel.Size = new System.Drawing.Size(60, 17);
             gioiTinhLabel.TabIndex = 7;
@@ -107,7 +106,7 @@
             // diaChiLabel
             // 
             diaChiLabel.AutoSize = true;
-            diaChiLabel.Location = new System.Drawing.Point(606, 149);
+            diaChiLabel.Location = new System.Drawing.Point(604, 75);
             diaChiLabel.Name = "diaChiLabel";
             diaChiLabel.Size = new System.Drawing.Size(51, 17);
             diaChiLabel.TabIndex = 9;
@@ -116,7 +115,7 @@
             // sDTLabel
             // 
             sDTLabel.AutoSize = true;
-            sDTLabel.Location = new System.Drawing.Point(606, 202);
+            sDTLabel.Location = new System.Drawing.Point(604, 128);
             sDTLabel.Name = "sDTLabel";
             sDTLabel.Size = new System.Drawing.Size(40, 17);
             sDTLabel.TabIndex = 11;
@@ -134,122 +133,11 @@
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
             this.kHACHHANGDataGridView.DataSource = this.kHACHHANGBindingSource;
-            this.kHACHHANGDataGridView.Location = new System.Drawing.Point(63, 360);
+            this.kHACHHANGDataGridView.Location = new System.Drawing.Point(49, 286);
             this.kHACHHANGDataGridView.Name = "kHACHHANGDataGridView";
             this.kHACHHANGDataGridView.RowTemplate.Height = 24;
-            this.kHACHHANGDataGridView.Size = new System.Drawing.Size(856, 220);
+            this.kHACHHANGDataGridView.Size = new System.Drawing.Size(884, 220);
             this.kHACHHANGDataGridView.TabIndex = 1;
-            // 
-            // maKHTextBox
-            // 
-            this.maKHTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "MaKH", true));
-            this.maKHTextBox.Location = new System.Drawing.Point(186, 97);
-            this.maKHTextBox.Name = "maKHTextBox";
-            this.maKHTextBox.Size = new System.Drawing.Size(200, 22);
-            this.maKHTextBox.TabIndex = 2;
-            // 
-            // tenKHTextBox
-            // 
-            this.tenKHTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "TenKH", true));
-            this.tenKHTextBox.Location = new System.Drawing.Point(186, 146);
-            this.tenKHTextBox.Name = "tenKHTextBox";
-            this.tenKHTextBox.Size = new System.Drawing.Size(200, 22);
-            this.tenKHTextBox.TabIndex = 4;
-            // 
-            // ngaySinhDateTimePicker
-            // 
-            this.ngaySinhDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.kHACHHANGBindingSource, "NgaySinh", true));
-            this.ngaySinhDateTimePicker.Location = new System.Drawing.Point(186, 197);
-            this.ngaySinhDateTimePicker.Name = "ngaySinhDateTimePicker";
-            this.ngaySinhDateTimePicker.Size = new System.Drawing.Size(200, 22);
-            this.ngaySinhDateTimePicker.TabIndex = 6;
-            // 
-            // gioiTinhTextBox
-            // 
-            this.gioiTinhTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "GioiTinh", true));
-            this.gioiTinhTextBox.Location = new System.Drawing.Point(699, 93);
-            this.gioiTinhTextBox.Name = "gioiTinhTextBox";
-            this.gioiTinhTextBox.Size = new System.Drawing.Size(220, 22);
-            this.gioiTinhTextBox.TabIndex = 8;
-            // 
-            // diaChiTextBox
-            // 
-            this.diaChiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "DiaChi", true));
-            this.diaChiTextBox.Location = new System.Drawing.Point(699, 146);
-            this.diaChiTextBox.Name = "diaChiTextBox";
-            this.diaChiTextBox.Size = new System.Drawing.Size(220, 22);
-            this.diaChiTextBox.TabIndex = 10;
-            // 
-            // sDTTextBox
-            // 
-            this.sDTTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "SDT", true));
-            this.sDTTextBox.Location = new System.Drawing.Point(699, 199);
-            this.sDTTextBox.Name = "sDTTextBox";
-            this.sDTTextBox.Size = new System.Drawing.Size(220, 22);
-            this.sDTTextBox.TabIndex = 12;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.White;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(357, 9);
-            this.label11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(289, 46);
-            this.label11.TabIndex = 148;
-            this.label11.Text = "KHÁCH HÀNG";
-            // 
-            // btn_thoat
-            // 
-            this.btn_thoat.Location = new System.Drawing.Point(733, 270);
-            this.btn_thoat.Name = "btn_thoat";
-            this.btn_thoat.Size = new System.Drawing.Size(130, 53);
-            this.btn_thoat.TabIndex = 149;
-            this.btn_thoat.Text = "Thoát";
-            this.btn_thoat.UseVisualStyleBackColor = true;
-            this.btn_thoat.Click += new System.EventHandler(this.btn_thoat_Click);
-            // 
-            // btn_sua
-            // 
-            this.btn_sua.Location = new System.Drawing.Point(536, 270);
-            this.btn_sua.Name = "btn_sua";
-            this.btn_sua.Size = new System.Drawing.Size(130, 53);
-            this.btn_sua.TabIndex = 150;
-            this.btn_sua.Text = "Sửa";
-            this.btn_sua.UseVisualStyleBackColor = true;
-            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
-            // 
-            // btn_xoa
-            // 
-            this.btn_xoa.Location = new System.Drawing.Point(322, 270);
-            this.btn_xoa.Name = "btn_xoa";
-            this.btn_xoa.Size = new System.Drawing.Size(130, 53);
-            this.btn_xoa.TabIndex = 151;
-            this.btn_xoa.Text = "Xóa ";
-            this.btn_xoa.UseVisualStyleBackColor = true;
-            this.btn_xoa.Click += new System.EventHandler(this.btn_xoa_Click);
-            // 
-            // btn_them
-            // 
-            this.btn_them.Location = new System.Drawing.Point(125, 270);
-            this.btn_them.Name = "btn_them";
-            this.btn_them.Size = new System.Drawing.Size(130, 53);
-            this.btn_them.TabIndex = 152;
-            this.btn_them.Text = "Thêm";
-            this.btn_them.UseVisualStyleBackColor = true;
-            this.btn_them.Click += new System.EventHandler(this.btn_them_Click);
-            // 
-            // kHACHHANGBindingSource
-            // 
-            this.kHACHHANGBindingSource.DataMember = "KHACHHANG";
-            this.kHACHHANGBindingSource.DataSource = this.qLShoplaptopDataSet;
-            // 
-            // qLShoplaptopDataSet
-            // 
-            this.qLShoplaptopDataSet.DataSetName = "QLShoplaptopDataSet";
-            this.qLShoplaptopDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -287,6 +175,94 @@
             this.dataGridViewTextBoxColumn6.HeaderText = "SDT";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             // 
+            // kHACHHANGBindingSource
+            // 
+            this.kHACHHANGBindingSource.DataMember = "KHACHHANG";
+            this.kHACHHANGBindingSource.DataSource = this.qLShoplaptopDataSet;
+            // 
+            // qLShoplaptopDataSet
+            // 
+            this.qLShoplaptopDataSet.DataSetName = "QLShoplaptopDataSet";
+            this.qLShoplaptopDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // maKHTextBox
+            // 
+            this.maKHTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "MaKH", true));
+            this.maKHTextBox.Location = new System.Drawing.Point(212, 21);
+            this.maKHTextBox.Name = "maKHTextBox";
+            this.maKHTextBox.Size = new System.Drawing.Size(200, 22);
+            this.maKHTextBox.TabIndex = 2;
+            // 
+            // tenKHTextBox
+            // 
+            this.tenKHTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "TenKH", true));
+            this.tenKHTextBox.Location = new System.Drawing.Point(212, 70);
+            this.tenKHTextBox.Name = "tenKHTextBox";
+            this.tenKHTextBox.Size = new System.Drawing.Size(200, 22);
+            this.tenKHTextBox.TabIndex = 4;
+            // 
+            // ngaySinhDateTimePicker
+            // 
+            this.ngaySinhDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.kHACHHANGBindingSource, "NgaySinh", true));
+            this.ngaySinhDateTimePicker.Location = new System.Drawing.Point(212, 121);
+            this.ngaySinhDateTimePicker.Name = "ngaySinhDateTimePicker";
+            this.ngaySinhDateTimePicker.Size = new System.Drawing.Size(200, 22);
+            this.ngaySinhDateTimePicker.TabIndex = 6;
+            // 
+            // gioiTinhTextBox
+            // 
+            this.gioiTinhTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "GioiTinh", true));
+            this.gioiTinhTextBox.Location = new System.Drawing.Point(713, 19);
+            this.gioiTinhTextBox.Name = "gioiTinhTextBox";
+            this.gioiTinhTextBox.Size = new System.Drawing.Size(220, 22);
+            this.gioiTinhTextBox.TabIndex = 8;
+            // 
+            // diaChiTextBox
+            // 
+            this.diaChiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "DiaChi", true));
+            this.diaChiTextBox.Location = new System.Drawing.Point(713, 72);
+            this.diaChiTextBox.Name = "diaChiTextBox";
+            this.diaChiTextBox.Size = new System.Drawing.Size(220, 22);
+            this.diaChiTextBox.TabIndex = 10;
+            // 
+            // sDTTextBox
+            // 
+            this.sDTTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "SDT", true));
+            this.sDTTextBox.Location = new System.Drawing.Point(713, 125);
+            this.sDTTextBox.Name = "sDTTextBox";
+            this.sDTTextBox.Size = new System.Drawing.Size(220, 22);
+            this.sDTTextBox.TabIndex = 12;
+            // 
+            // btn_sua
+            // 
+            this.btn_sua.Location = new System.Drawing.Point(522, 196);
+            this.btn_sua.Name = "btn_sua";
+            this.btn_sua.Size = new System.Drawing.Size(130, 53);
+            this.btn_sua.TabIndex = 150;
+            this.btn_sua.Text = "Sửa";
+            this.btn_sua.UseVisualStyleBackColor = true;
+            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
+            // 
+            // btn_xoa
+            // 
+            this.btn_xoa.Location = new System.Drawing.Point(308, 196);
+            this.btn_xoa.Name = "btn_xoa";
+            this.btn_xoa.Size = new System.Drawing.Size(130, 53);
+            this.btn_xoa.TabIndex = 151;
+            this.btn_xoa.Text = "Xóa ";
+            this.btn_xoa.UseVisualStyleBackColor = true;
+            this.btn_xoa.Click += new System.EventHandler(this.btn_xoa_Click);
+            // 
+            // btn_them
+            // 
+            this.btn_them.Location = new System.Drawing.Point(111, 196);
+            this.btn_them.Name = "btn_them";
+            this.btn_them.Size = new System.Drawing.Size(130, 53);
+            this.btn_them.TabIndex = 152;
+            this.btn_them.Text = "Thêm";
+            this.btn_them.UseVisualStyleBackColor = true;
+            this.btn_them.Click += new System.EventHandler(this.btn_them_Click);
+            // 
             // kHACHHANGTableAdapter
             // 
             this.kHACHHANGTableAdapter.ClearBeforeFill = true;
@@ -303,16 +279,25 @@
             this.tableAdapterManager.TAIKHOANTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = GUI.QLShoplaptopDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
+            // btn_clear
+            // 
+            this.btn_clear.Location = new System.Drawing.Point(728, 196);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(130, 53);
+            this.btn_clear.TabIndex = 153;
+            this.btn_clear.Text = "Làm mới";
+            this.btn_clear.UseVisualStyleBackColor = true;
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
+            // 
             // FormKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1012, 596);
-            this.Controls.Add(this.btn_thoat);
+            this.ClientSize = new System.Drawing.Size(1004, 529);
+            this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_sua);
             this.Controls.Add(this.btn_xoa);
             this.Controls.Add(this.btn_them);
-            this.Controls.Add(this.label11);
             this.Controls.Add(sDTLabel);
             this.Controls.Add(this.sDTTextBox);
             this.Controls.Add(diaChiLabel);
@@ -357,10 +342,9 @@
         private System.Windows.Forms.TextBox gioiTinhTextBox;
         private System.Windows.Forms.TextBox diaChiTextBox;
         private System.Windows.Forms.TextBox sDTTextBox;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button btn_thoat;
         private System.Windows.Forms.Button btn_sua;
         private System.Windows.Forms.Button btn_xoa;
         private System.Windows.Forms.Button btn_them;
+        private System.Windows.Forms.Button btn_clear;
     }
 }

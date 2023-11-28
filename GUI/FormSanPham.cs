@@ -99,17 +99,18 @@ namespace GUI
             this.sANPHAMTableAdapter.Fill(this.qLShoplaptopDataSet.SANPHAM);
         }
 
-        private void btn_thoat_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            FormTrangChu trangChu = new FormTrangChu();
-            trangChu.Show();
-            this.Hide();
-        }
-
         private void btn_showallsp_Click(object sender, EventArgs e)
         {
             this.sANPHAMTableAdapter.Fill(this.qLShoplaptopDataSet.SANPHAM);
+        }
+
+        private void btn_clear_Click(object sender, EventArgs e)
+        {
+            maSPTextBox.Clear();
+            tenSPTextBox.Clear();
+            soLuongTextBox.Clear();
+            giaBanTextBox.Clear();
+            maNCCComboBox.SelectedItem = null;
         }
     }
 }

@@ -16,6 +16,7 @@ namespace GUI
     {
         TaiKhoan taikhoan = new TaiKhoan();
         TaiKhoanBLL tkbll = new TaiKhoanBLL();
+        public static string TenND = "";
 
         public FormDangNhap()
         {
@@ -24,9 +25,9 @@ namespace GUI
 
         private void btn_dangnhap_Click(object sender, EventArgs e)
         {
+            TenND = txt_taikhoan.Text;
             taikhoan.TenTaiKhoan = txt_taikhoan.Text;
             taikhoan.MatKhau = txt_matkhau.Text;
-
             string getuser = tkbll.CheckLogin(taikhoan);
 
             switch (getuser)
@@ -45,15 +46,25 @@ namespace GUI
             }
 
             MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            FormTrangChu trangChu = new FormTrangChu();
-            trangChu.UpdateStatusBar(txt_taikhoan.Text);
+            TrangChu trangChu = new TrangChu();
             trangChu.Show();
             this.Hide();
         }
 
-        private void btn_huy_Click(object sender, EventArgs e)
+        private void btn_huybo_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+        private void txt_taikhoan_Click(object sender, EventArgs e)
+        {
+            txt_taikhoan.Clear();
+        }
+
+        private void txt_matkhau_Click(object sender, EventArgs e)
+        {
+            txt_matkhau.Clear();
+        }
+
     }
 }

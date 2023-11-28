@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class Form1
+    partial class TrangChu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,26 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btn_nhasanxuat = new FontAwesome.Sharp.IconButton();
             this.btn_trangchu = new FontAwesome.Sharp.IconButton();
             this.btn_sanpham = new FontAwesome.Sharp.IconButton();
             this.btn_khachhang = new FontAwesome.Sharp.IconButton();
             this.btnlogout = new FontAwesome.Sharp.IconButton();
             this.btn_thongke = new FontAwesome.Sharp.IconButton();
-            this.btnsetting = new FontAwesome.Sharp.IconButton();
             this.btn_nhanvien = new FontAwesome.Sharp.IconButton();
             this.PanelMenu = new System.Windows.Forms.Panel();
-            this.picLogo = new System.Windows.Forms.PictureBox();
             this.PanelLogo = new System.Windows.Forms.Panel();
+            this.picLogo = new System.Windows.Forms.PictureBox();
             this.paneltrangcon = new System.Windows.Forms.Panel();
             this.iconmenusmall = new FontAwesome.Sharp.IconPictureBox();
             this.labelcon = new System.Windows.Forms.Label();
             this.LabelUser = new System.Windows.Forms.Label();
             this.lbDateTime = new System.Windows.Forms.Label();
             this.panelTitlebar = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.PanelMenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.PanelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconmenusmall)).BeginInit();
             this.panelTitlebar.SuspendLayout();
             this.SuspendLayout();
@@ -68,12 +69,13 @@
             this.btn_nhasanxuat.Name = "btn_nhasanxuat";
             this.btn_nhasanxuat.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.btn_nhasanxuat.Rotation = 0D;
-            this.btn_nhasanxuat.Size = new System.Drawing.Size(227, 62);
+            this.btn_nhasanxuat.Size = new System.Drawing.Size(290, 62);
             this.btn_nhasanxuat.TabIndex = 5;
             this.btn_nhasanxuat.Text = "Nhà xản xuất";
             this.btn_nhasanxuat.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_nhasanxuat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_nhasanxuat.UseVisualStyleBackColor = true;
+            this.btn_nhasanxuat.Click += new System.EventHandler(this.btn_nhasanxuat_Click);
             // 
             // btn_trangchu
             // 
@@ -92,12 +94,13 @@
             this.btn_trangchu.Name = "btn_trangchu";
             this.btn_trangchu.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.btn_trangchu.Rotation = 0D;
-            this.btn_trangchu.Size = new System.Drawing.Size(227, 62);
+            this.btn_trangchu.Size = new System.Drawing.Size(290, 62);
             this.btn_trangchu.TabIndex = 1;
             this.btn_trangchu.Text = "Trang chủ";
             this.btn_trangchu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_trangchu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_trangchu.UseVisualStyleBackColor = true;
+            this.btn_trangchu.Click += new System.EventHandler(this.btn_trangchu_Click);
             // 
             // btn_sanpham
             // 
@@ -116,12 +119,13 @@
             this.btn_sanpham.Name = "btn_sanpham";
             this.btn_sanpham.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.btn_sanpham.Rotation = 0D;
-            this.btn_sanpham.Size = new System.Drawing.Size(227, 62);
+            this.btn_sanpham.Size = new System.Drawing.Size(290, 62);
             this.btn_sanpham.TabIndex = 2;
             this.btn_sanpham.Text = "Sản phẩm";
             this.btn_sanpham.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_sanpham.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_sanpham.UseVisualStyleBackColor = true;
+            this.btn_sanpham.Click += new System.EventHandler(this.btn_sanpham_Click);
             // 
             // btn_khachhang
             // 
@@ -139,12 +143,13 @@
             this.btn_khachhang.Name = "btn_khachhang";
             this.btn_khachhang.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.btn_khachhang.Rotation = 0D;
-            this.btn_khachhang.Size = new System.Drawing.Size(227, 62);
+            this.btn_khachhang.Size = new System.Drawing.Size(290, 62);
             this.btn_khachhang.TabIndex = 6;
             this.btn_khachhang.Text = "Khách hàng";
             this.btn_khachhang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_khachhang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_khachhang.UseVisualStyleBackColor = true;
+            this.btn_khachhang.Click += new System.EventHandler(this.btn_khachhang_Click);
             // 
             // btnlogout
             // 
@@ -158,12 +163,12 @@
             this.btnlogout.IconColor = System.Drawing.Color.Gainsboro;
             this.btnlogout.IconSize = 35;
             this.btnlogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnlogout.Location = new System.Drawing.Point(0, 673);
+            this.btnlogout.Location = new System.Drawing.Point(0, 587);
             this.btnlogout.Margin = new System.Windows.Forms.Padding(4);
             this.btnlogout.Name = "btnlogout";
             this.btnlogout.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.btnlogout.Rotation = 0D;
-            this.btnlogout.Size = new System.Drawing.Size(227, 62);
+            this.btnlogout.Size = new System.Drawing.Size(290, 62);
             this.btnlogout.TabIndex = 7;
             this.btnlogout.Text = "Đăng xuất";
             this.btnlogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -187,36 +192,13 @@
             this.btn_thongke.Name = "btn_thongke";
             this.btn_thongke.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.btn_thongke.Rotation = 0D;
-            this.btn_thongke.Size = new System.Drawing.Size(227, 62);
+            this.btn_thongke.Size = new System.Drawing.Size(290, 62);
             this.btn_thongke.TabIndex = 4;
             this.btn_thongke.Text = "Thống kê";
             this.btn_thongke.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_thongke.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_thongke.UseVisualStyleBackColor = true;
-            // 
-            // btnsetting
-            // 
-            this.btnsetting.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnsetting.FlatAppearance.BorderSize = 0;
-            this.btnsetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsetting.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.btnsetting.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsetting.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnsetting.IconChar = FontAwesome.Sharp.IconChar.Cog;
-            this.btnsetting.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnsetting.IconSize = 35;
-            this.btnsetting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnsetting.Location = new System.Drawing.Point(0, 611);
-            this.btnsetting.Margin = new System.Windows.Forms.Padding(4);
-            this.btnsetting.Name = "btnsetting";
-            this.btnsetting.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.btnsetting.Rotation = 0D;
-            this.btnsetting.Size = new System.Drawing.Size(227, 62);
-            this.btnsetting.TabIndex = 8;
-            this.btnsetting.Text = "Thiết lập";
-            this.btnsetting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnsetting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnsetting.UseVisualStyleBackColor = true;
+            this.btn_thongke.Click += new System.EventHandler(this.btn_thongke_Click);
             // 
             // btn_nhanvien
             // 
@@ -234,18 +216,18 @@
             this.btn_nhanvien.Name = "btn_nhanvien";
             this.btn_nhanvien.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
             this.btn_nhanvien.Rotation = 0D;
-            this.btn_nhanvien.Size = new System.Drawing.Size(227, 62);
+            this.btn_nhanvien.Size = new System.Drawing.Size(290, 62);
             this.btn_nhanvien.TabIndex = 9;
             this.btn_nhanvien.Text = "Nhân viên";
             this.btn_nhanvien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_nhanvien.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_nhanvien.UseVisualStyleBackColor = true;
+            this.btn_nhanvien.Click += new System.EventHandler(this.btn_nhanvien_Click);
             // 
             // PanelMenu
             // 
             this.PanelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.PanelMenu.Controls.Add(this.btn_nhanvien);
-            this.PanelMenu.Controls.Add(this.btnsetting);
             this.PanelMenu.Controls.Add(this.btn_thongke);
             this.PanelMenu.Controls.Add(this.btnlogout);
             this.PanelMenu.Controls.Add(this.btn_khachhang);
@@ -257,19 +239,8 @@
             this.PanelMenu.Location = new System.Drawing.Point(0, 0);
             this.PanelMenu.Margin = new System.Windows.Forms.Padding(4);
             this.PanelMenu.Name = "PanelMenu";
-            this.PanelMenu.Size = new System.Drawing.Size(227, 735);
+            this.PanelMenu.Size = new System.Drawing.Size(290, 649);
             this.PanelMenu.TabIndex = 4;
-            // 
-            // picLogo
-            // 
-            this.picLogo.Image = global::GUI.Properties.Resources._11zon_cropped;
-            this.picLogo.Location = new System.Drawing.Point(51, 11);
-            this.picLogo.Margin = new System.Windows.Forms.Padding(4);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(124, 112);
-            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picLogo.TabIndex = 0;
-            this.picLogo.TabStop = false;
             // 
             // PanelLogo
             // 
@@ -278,16 +249,27 @@
             this.PanelLogo.Location = new System.Drawing.Point(0, 0);
             this.PanelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.PanelLogo.Name = "PanelLogo";
-            this.PanelLogo.Size = new System.Drawing.Size(227, 123);
+            this.PanelLogo.Size = new System.Drawing.Size(290, 123);
             this.PanelLogo.TabIndex = 0;
+            // 
+            // picLogo
+            // 
+            this.picLogo.Image = global::GUI.Properties.Resources._11zon_cropped;
+            this.picLogo.Location = new System.Drawing.Point(59, 11);
+            this.picLogo.Margin = new System.Windows.Forms.Padding(4);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(108, 108);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picLogo.TabIndex = 0;
+            this.picLogo.TabStop = false;
             // 
             // paneltrangcon
             // 
             this.paneltrangcon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.paneltrangcon.Location = new System.Drawing.Point(227, 83);
+            this.paneltrangcon.Location = new System.Drawing.Point(290, 88);
             this.paneltrangcon.Margin = new System.Windows.Forms.Padding(4);
             this.paneltrangcon.Name = "paneltrangcon";
-            this.paneltrangcon.Size = new System.Drawing.Size(881, 656);
+            this.paneltrangcon.Size = new System.Drawing.Size(1136, 561);
             this.paneltrangcon.TabIndex = 6;
             // 
             // iconmenusmall
@@ -321,7 +303,7 @@
             this.LabelUser.AutoSize = true;
             this.LabelUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelUser.ForeColor = System.Drawing.Color.Gainsboro;
-            this.LabelUser.Location = new System.Drawing.Point(245, 38);
+            this.LabelUser.Location = new System.Drawing.Point(316, 38);
             this.LabelUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelUser.Name = "LabelUser";
             this.LabelUser.Size = new System.Drawing.Size(123, 20);
@@ -333,7 +315,7 @@
             this.lbDateTime.AutoSize = true;
             this.lbDateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDateTime.ForeColor = System.Drawing.Color.Gainsboro;
-            this.lbDateTime.Location = new System.Drawing.Point(488, 38);
+            this.lbDateTime.Location = new System.Drawing.Point(770, 33);
             this.lbDateTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDateTime.Name = "lbDateTime";
             this.lbDateTime.Size = new System.Drawing.Size(90, 25);
@@ -348,26 +330,31 @@
             this.panelTitlebar.Controls.Add(this.labelcon);
             this.panelTitlebar.Controls.Add(this.iconmenusmall);
             this.panelTitlebar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitlebar.Location = new System.Drawing.Point(227, 0);
+            this.panelTitlebar.Location = new System.Drawing.Point(290, 0);
             this.panelTitlebar.Margin = new System.Windows.Forms.Padding(4);
             this.panelTitlebar.Name = "panelTitlebar";
-            this.panelTitlebar.Size = new System.Drawing.Size(881, 86);
+            this.panelTitlebar.Size = new System.Drawing.Size(1071, 86);
             this.panelTitlebar.TabIndex = 5;
             // 
-            // Form1
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1108, 735);
+            this.ClientSize = new System.Drawing.Size(1361, 649);
             this.Controls.Add(this.panelTitlebar);
             this.Controls.Add(this.paneltrangcon);
             this.Controls.Add(this.PanelMenu);
-            this.Name = "Form1";
+            this.Name = "TrangChu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "FormTrangChu";
+            this.Load += new System.EventHandler(this.TrangChu_Load);
             this.PanelMenu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.PanelLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconmenusmall)).EndInit();
             this.panelTitlebar.ResumeLayout(false);
             this.panelTitlebar.PerformLayout();
@@ -383,7 +370,6 @@
         private FontAwesome.Sharp.IconButton btn_khachhang;
         private FontAwesome.Sharp.IconButton btnlogout;
         private FontAwesome.Sharp.IconButton btn_thongke;
-        private FontAwesome.Sharp.IconButton btnsetting;
         private FontAwesome.Sharp.IconButton btn_nhanvien;
         private System.Windows.Forms.Panel PanelMenu;
         private System.Windows.Forms.Panel PanelLogo;
@@ -394,6 +380,7 @@
         private System.Windows.Forms.Label LabelUser;
         private System.Windows.Forms.Label lbDateTime;
         private System.Windows.Forms.Panel panelTitlebar;
+        private System.Windows.Forms.Timer timer1;
 
 
 

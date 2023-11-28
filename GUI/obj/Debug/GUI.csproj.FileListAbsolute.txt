@@ -37,7 +37,6 @@ E:\QLShopLaptop\GUI\bin\Debug\DTO.pdb
 E:\QLShopLaptop\GUI\bin\Debug\ThietKeControls.pdb
 E:\QLShopLaptop\GUI\bin\Debug\DAL.pdb
 E:\QLShopLaptop\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
-E:\QLShopLaptop\GUI\obj\Debug\GUI.Form1.resources
 E:\QLShopLaptop\GUI\obj\Debug\GUI.FormDangNhap.resources
 E:\QLShopLaptop\GUI\obj\Debug\GUI.FormDoiMatKhau.resources
 E:\QLShopLaptop\GUI\obj\Debug\GUI.FormKhachHang.resources
@@ -47,3 +46,4 @@ E:\QLShopLaptop\GUI\obj\Debug\GUI.FormTrangChu.resources
 E:\QLShopLaptop\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 E:\QLShopLaptop\GUI\obj\Debug\GUI.FormNhaCungCap.resources
 E:\QLShopLaptop\GUI\obj\Debug\GUI.FormNhanVien.resources
+E:\QLShopLaptop\GUI\obj\Debug\GUI.TrangChu.resources

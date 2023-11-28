@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(819, 716);
+            this.ClientSize = new System.Drawing.Size(968, 629);
             this.Name = "FormNhaCungCap";
             this.Text = "FormNhaCungCap";
             this.ResumeLayout(false);
