@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="DatabaseDAL.cs" />
     <Compile Include="KhachHangDAL.cs" />
+    <Compile Include="NhaCungCapDAL.cs" />
     <Compile Include="NhanVienDAL.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
