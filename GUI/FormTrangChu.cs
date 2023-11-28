@@ -66,5 +66,12 @@ namespace GUI
             this.Hide();
         }
 
+        private void nhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormNhaCungCap ncc = new FormNhaCungCap();
+            ncc.Show();
+            this.Hide();
+        }
+
     }
 }

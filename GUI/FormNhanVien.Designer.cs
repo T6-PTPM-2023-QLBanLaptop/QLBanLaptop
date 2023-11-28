@@ -35,17 +35,7 @@
             System.Windows.Forms.Label gioiTinhLabel;
             System.Windows.Forms.Label diaChiLabel;
             System.Windows.Forms.Label sDTLabel;
-            this.qLShoplaptopDataSet = new GUI.QLShoplaptopDataSet();
-            this.nHANVIENBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.nHANVIENTableAdapter = new GUI.QLShoplaptopDataSetTableAdapters.NHANVIENTableAdapter();
-            this.tableAdapterManager = new GUI.QLShoplaptopDataSetTableAdapters.TableAdapterManager();
             this.nHANVIENDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.maNVTextBox = new System.Windows.Forms.TextBox();
             this.tenNVTextBox = new System.Windows.Forms.TextBox();
             this.ngaySinhDateTimePicker = new System.Windows.Forms.DateTimePicker();
@@ -57,42 +47,26 @@
             this.btn_xoa = new System.Windows.Forms.Button();
             this.btn_them = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
+            this.nHANVIENBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qLShoplaptopDataSet = new GUI.QLShoplaptopDataSet();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nHANVIENTableAdapter = new GUI.QLShoplaptopDataSetTableAdapters.NHANVIENTableAdapter();
+            this.tableAdapterManager = new GUI.QLShoplaptopDataSetTableAdapters.TableAdapterManager();
             maNVLabel = new System.Windows.Forms.Label();
             tenNVLabel = new System.Windows.Forms.Label();
             ngaySinhLabel = new System.Windows.Forms.Label();
             gioiTinhLabel = new System.Windows.Forms.Label();
             diaChiLabel = new System.Windows.Forms.Label();
             sDTLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.qLShoplaptopDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLShoplaptopDataSet)).BeginInit();
             this.SuspendLayout();
-            // 
-            // qLShoplaptopDataSet
-            // 
-            this.qLShoplaptopDataSet.DataSetName = "QLShoplaptopDataSet";
-            this.qLShoplaptopDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // nHANVIENBindingSource
-            // 
-            this.nHANVIENBindingSource.DataMember = "NHANVIEN";
-            this.nHANVIENBindingSource.DataSource = this.qLShoplaptopDataSet;
-            // 
-            // nHANVIENTableAdapter
-            // 
-            this.nHANVIENTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.HOADONTableAdapter = null;
-            this.tableAdapterManager.KHACHHANGTableAdapter = null;
-            this.tableAdapterManager.NHACUNGCAPTableAdapter = null;
-            this.tableAdapterManager.NHANVIENTableAdapter = this.nHANVIENTableAdapter;
-            this.tableAdapterManager.PHANQUYENTableAdapter = null;
-            this.tableAdapterManager.SANPHAMTableAdapter = null;
-            this.tableAdapterManager.TAIKHOANTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = GUI.QLShoplaptopDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // nHANVIENDataGridView
             // 
@@ -109,44 +83,8 @@
             this.nHANVIENDataGridView.Location = new System.Drawing.Point(45, 260);
             this.nHANVIENDataGridView.Name = "nHANVIENDataGridView";
             this.nHANVIENDataGridView.RowTemplate.Height = 24;
-            this.nHANVIENDataGridView.Size = new System.Drawing.Size(800, 252);
+            this.nHANVIENDataGridView.Size = new System.Drawing.Size(831, 252);
             this.nHANVIENDataGridView.TabIndex = 1;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "MaNV";
-            this.dataGridViewTextBoxColumn1.HeaderText = "MaNV";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "TenNV";
-            this.dataGridViewTextBoxColumn2.HeaderText = "TenNV";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "NgaySinh";
-            this.dataGridViewTextBoxColumn3.HeaderText = "NgaySinh";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "GioiTinh";
-            this.dataGridViewTextBoxColumn4.HeaderText = "GioiTinh";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "DiaChi";
-            this.dataGridViewTextBoxColumn5.HeaderText = "DiaChi";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "SDT";
-            this.dataGridViewTextBoxColumn6.HeaderText = "SDT";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             // 
             // maNVLabel
             // 
@@ -303,6 +241,68 @@
             this.label11.TabIndex = 157;
             this.label11.Text = "NHÂN VIÊN";
             // 
+            // nHANVIENBindingSource
+            // 
+            this.nHANVIENBindingSource.DataMember = "NHANVIEN";
+            this.nHANVIENBindingSource.DataSource = this.qLShoplaptopDataSet;
+            // 
+            // qLShoplaptopDataSet
+            // 
+            this.qLShoplaptopDataSet.DataSetName = "QLShoplaptopDataSet";
+            this.qLShoplaptopDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "MaNV";
+            this.dataGridViewTextBoxColumn1.HeaderText = "MaNV";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "TenNV";
+            this.dataGridViewTextBoxColumn2.HeaderText = "TenNV";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "NgaySinh";
+            this.dataGridViewTextBoxColumn3.HeaderText = "NgaySinh";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "GioiTinh";
+            this.dataGridViewTextBoxColumn4.HeaderText = "GioiTinh";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "DiaChi";
+            this.dataGridViewTextBoxColumn5.HeaderText = "DiaChi";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "SDT";
+            this.dataGridViewTextBoxColumn6.HeaderText = "SDT";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
+            // nHANVIENTableAdapter
+            // 
+            this.nHANVIENTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.HOADONTableAdapter = null;
+            this.tableAdapterManager.KHACHHANGTableAdapter = null;
+            this.tableAdapterManager.NHACUNGCAPTableAdapter = null;
+            this.tableAdapterManager.NHANVIENTableAdapter = this.nHANVIENTableAdapter;
+            this.tableAdapterManager.PHANQUYENTableAdapter = null;
+            this.tableAdapterManager.SANPHAMTableAdapter = null;
+            this.tableAdapterManager.TAIKHOANTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = GUI.QLShoplaptopDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
             // FormNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -329,9 +329,9 @@
             this.Name = "FormNhanVien";
             this.Text = "FormNhanVien";
             this.Load += new System.EventHandler(this.FormNhanVien_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.qLShoplaptopDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nHANVIENDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nHANVIENBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLShoplaptopDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
