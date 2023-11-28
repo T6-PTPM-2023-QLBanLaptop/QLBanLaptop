@@ -59,5 +59,12 @@ namespace GUI
             txt_statusbar.Text = "Chào mừng: " + username;
         }
 
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormNhanVien nv = new FormNhanVien();
+            nv.Show();
+            this.Hide();
+        }
+
     }
 }

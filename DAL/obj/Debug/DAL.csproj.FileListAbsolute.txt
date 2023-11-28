@@ -10,3 +10,11 @@ D:\HOCTAP\QLBanLaptop\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\HOCTAP\QLBanLaptop\DAL\obj\Debug\DAL.dll
 D:\HOCTAP\QLBanLaptop\DAL\obj\Debug\DAL.pdb
 D:\HOCTAP\QLBanLaptop\DAL\bin\Debug\DAL.dll.config
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\DAL\bin\Debug\DAL.dll.config
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\DAL\bin\Debug\DAL.dll
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\DAL\bin\Debug\DAL.pdb
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\DAL\bin\Debug\DTO.dll
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\DAL\bin\Debug\DTO.pdb
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\DAL\obj\Debug\DAL.dll
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\DAL\obj\Debug\DAL.pdb
