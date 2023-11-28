@@ -20,3 +20,5 @@ D:\HOCTAP\QLBanLaptop\GUI\obj\Debug\GUI.FormTrangChu.resources
 D:\HOCTAP\QLBanLaptop\GUI\bin\Debug\ThietKeControls.dll
 D:\HOCTAP\QLBanLaptop\GUI\bin\Debug\ThietKeControls.pdb
 D:\HOCTAP\QLBanLaptop\GUI\obj\Debug\GUI.FormKhachHang.resources
+D:\HOCTAP\QLBanLaptop\GUI\obj\Debug\GUI.Form1.resources
+D:\HOCTAP\QLBanLaptop\GUI\bin\Debug\FontAwesome.Sharp.dll
