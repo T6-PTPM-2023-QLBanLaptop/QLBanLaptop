@@ -9,3 +9,14 @@ D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\BLL.pdb
 D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\DTO.pdb
 D:\HOCTAP\QLBanLaptop\ThietKeControls\bin\Debug\DAL.pdb
 D:\HOCTAP\QLBanLaptop\ThietKeControls\obj\Debug\ThietKeControls.csprojResolveAssemblyReference.cache
+E:\QLShopLaptop\ThietKeControls\bin\Debug\ThietKeControls.dll
+E:\QLShopLaptop\ThietKeControls\bin\Debug\ThietKeControls.pdb
+E:\QLShopLaptop\ThietKeControls\bin\Debug\BLL.dll
+E:\QLShopLaptop\ThietKeControls\bin\Debug\DTO.dll
+E:\QLShopLaptop\ThietKeControls\bin\Debug\DAL.dll
+E:\QLShopLaptop\ThietKeControls\bin\Debug\BLL.pdb
+E:\QLShopLaptop\ThietKeControls\bin\Debug\DTO.pdb
+E:\QLShopLaptop\ThietKeControls\bin\Debug\DAL.pdb
+E:\QLShopLaptop\ThietKeControls\obj\Debug\ThietKeControls.csprojResolveAssemblyReference.cache
+E:\QLShopLaptop\ThietKeControls\obj\Debug\ThietKeControls.dll
+E:\QLShopLaptop\ThietKeControls\obj\Debug\ThietKeControls.pdb

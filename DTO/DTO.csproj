@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="KhachHang.cs" />
+    <Compile Include="NhaCungCap.cs" />
+    <Compile Include="NhanVien.cs" />
     <Compile Include="PhanQuyen.cs" />
     <Compile Include="SanPham.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

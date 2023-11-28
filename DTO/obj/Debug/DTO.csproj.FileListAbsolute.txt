@@ -7,3 +7,8 @@ D:\HOCTAP\QLBanLaptop\DTO\bin\Debug\DTO.dll
 D:\HOCTAP\QLBanLaptop\DTO\bin\Debug\DTO.pdb
 D:\HOCTAP\QLBanLaptop\DTO\obj\Debug\DTO.dll
 D:\HOCTAP\QLBanLaptop\DTO\obj\Debug\DTO.pdb
+E:\QLShopLaptop\DTO\bin\Debug\DTO.dll
+E:\QLShopLaptop\DTO\bin\Debug\DTO.pdb
+E:\QLShopLaptop\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+E:\QLShopLaptop\DTO\obj\Debug\DTO.dll
+E:\QLShopLaptop\DTO\obj\Debug\DTO.pdb
