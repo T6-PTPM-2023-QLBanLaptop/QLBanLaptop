@@ -18,7 +18,14 @@ namespace GUI
 
         public FormDoiMatKhau()
         {
-            InitializeComponent();
+            if (FormTrangChu.tennguoidung == "admin")
+            {
+                InitializeComponent();
+            }
+            else
+            {
+                MessageBox.Show("Chỉ có admin mới có thể truy cập chức năng này!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void btn_huy_Click(object sender, EventArgs e)

@@ -69,7 +69,7 @@ namespace GUI
             {
                 string maKH = kHACHHANGDataGridView.SelectedRows[0].Cells[0].Value.ToString();
 
-                if (MessageBox.Show("Bạn có chắc chắn muốn xóa Khách hàng này?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Bạn có chắc chắn muốn xóa khách hàng này?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     khbll.XoaKhachHang(maKH);
 

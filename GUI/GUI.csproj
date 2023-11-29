@@ -35,6 +35,9 @@
     <Reference Include="FontAwesome.Sharp">
       <HintPath>..\packages\FontAwesome.Sharp.5.13.0\lib\net45\FontAwesome.Sharp.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -53,11 +56,17 @@
     <Compile Include="FormDangNhap.Designer.cs">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="TrangChu.cs">
+    <Compile Include="FormKhoHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TrangChu.Designer.cs">
-      <DependentUpon>TrangChu.cs</DependentUpon>
+    <Compile Include="FormKhoHang.Designer.cs">
+      <DependentUpon>FormKhoHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTrangChu.Designer.cs">
+      <DependentUpon>FormTrangChu.cs</DependentUpon>
     </Compile>
     <Compile Include="FormDoiMatKhau.cs">
       <SubType>Form</SubType>
@@ -101,17 +110,14 @@
     <Compile Include="FormSanPham.Designer.cs">
       <DependentUpon>FormSanPham.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTrangChu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormTrangChu.Designer.cs">
-      <DependentUpon>FormTrangChu.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TrangChu.resx">
-      <DependentUpon>TrangChu.cs</DependentUpon>
+    <EmbeddedResource Include="FormKhoHang.resx">
+      <DependentUpon>FormKhoHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTrangChu.resx">
+      <DependentUpon>FormTrangChu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDoiMatKhau.resx">
       <DependentUpon>FormDoiMatKhau.cs</DependentUpon>
@@ -132,9 +138,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSanPham.resx">
       <DependentUpon>FormSanPham.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormTrangChu.resx">
-      <DependentUpon>FormTrangChu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -182,6 +185,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcom to Our.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Laptop.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -46,7 +46,7 @@ namespace GUI
             }
 
             MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            TrangChu trangChu = new TrangChu();
+            FormTrangChu trangChu = new FormTrangChu();
             trangChu.Show();
             this.Hide();
         }

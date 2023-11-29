@@ -47,7 +47,7 @@
             this.btn_xoa = new System.Windows.Forms.Button();
             this.btn_sua = new System.Windows.Forms.Button();
             this.btn_clear = new System.Windows.Forms.Button();
-            this.btn_showallsp = new System.Windows.Forms.Button();
+            this.btn_xuatexcel = new System.Windows.Forms.Button();
             this.sANPHAMDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -128,6 +128,7 @@
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
             this.tableAdapterManager.HOADONTableAdapter = null;
             this.tableAdapterManager.KHACHHANGTableAdapter = null;
+            this.tableAdapterManager.KHOHANGTableAdapter = null;
             this.tableAdapterManager.NHACUNGCAPTableAdapter = null;
             this.tableAdapterManager.NHANVIENTableAdapter = null;
             this.tableAdapterManager.PHANQUYENTableAdapter = null;
@@ -216,15 +217,15 @@
             this.btn_clear.UseVisualStyleBackColor = true;
             this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
-            // btn_showallsp
+            // btn_xuatexcel
             // 
-            this.btn_showallsp.Location = new System.Drawing.Point(654, 130);
-            this.btn_showallsp.Name = "btn_showallsp";
-            this.btn_showallsp.Size = new System.Drawing.Size(172, 37);
-            this.btn_showallsp.TabIndex = 12;
-            this.btn_showallsp.Text = "Hiển thị tất cả sản phẩm";
-            this.btn_showallsp.UseVisualStyleBackColor = true;
-            this.btn_showallsp.Click += new System.EventHandler(this.btn_showallsp_Click);
+            this.btn_xuatexcel.Location = new System.Drawing.Point(654, 130);
+            this.btn_xuatexcel.Name = "btn_xuatexcel";
+            this.btn_xuatexcel.Size = new System.Drawing.Size(172, 37);
+            this.btn_xuatexcel.TabIndex = 12;
+            this.btn_xuatexcel.Text = "Xuất Excel";
+            this.btn_xuatexcel.UseVisualStyleBackColor = true;
+            this.btn_xuatexcel.Click += new System.EventHandler(this.btn_xuatexcel_Click);
             // 
             // sANPHAMDataGridView
             // 
@@ -282,7 +283,7 @@
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_sua);
             this.Controls.Add(this.btn_xoa);
-            this.Controls.Add(this.btn_showallsp);
+            this.Controls.Add(this.btn_xuatexcel);
             this.Controls.Add(this.btn_them);
             this.Controls.Add(maNCCLabel);
             this.Controls.Add(this.maNCCComboBox);
@@ -296,7 +297,7 @@
             this.Controls.Add(this.maSPTextBox);
             this.Name = "FormSanPham";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SanPham";
+            this.Text = "Sản phẩm";
             this.Load += new System.EventHandler(this.SanPham_Load);
             ((System.ComponentModel.ISupportInitialize)(this.qLShoplaptopDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sANPHAMBindingSource)).EndInit();
@@ -321,7 +322,7 @@
         private System.Windows.Forms.Button btn_xoa;
         private System.Windows.Forms.Button btn_sua;
         private System.Windows.Forms.Button btn_clear;
-        private System.Windows.Forms.Button btn_showallsp;
+        private System.Windows.Forms.Button btn_xuatexcel;
         private System.Windows.Forms.DataGridView sANPHAMDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;

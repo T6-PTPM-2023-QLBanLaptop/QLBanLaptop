@@ -42,7 +42,7 @@
             // 
             // btn_huy
             // 
-            this.btn_huy.Location = new System.Drawing.Point(333, 260);
+            this.btn_huy.Location = new System.Drawing.Point(396, 260);
             this.btn_huy.Margin = new System.Windows.Forms.Padding(4);
             this.btn_huy.Name = "btn_huy";
             this.btn_huy.Size = new System.Drawing.Size(78, 44);
@@ -53,7 +53,7 @@
             // 
             // btn_doimatkhau
             // 
-            this.btn_doimatkhau.Location = new System.Drawing.Point(184, 260);
+            this.btn_doimatkhau.Location = new System.Drawing.Point(247, 260);
             this.btn_doimatkhau.Margin = new System.Windows.Forms.Padding(4);
             this.btn_doimatkhau.Name = "btn_doimatkhau";
             this.btn_doimatkhau.Size = new System.Drawing.Size(117, 44);
@@ -104,7 +104,7 @@
             // 
             // txt_tentaikhoan
             // 
-            this.txt_tentaikhoan.Location = new System.Drawing.Point(184, 28);
+            this.txt_tentaikhoan.Location = new System.Drawing.Point(247, 28);
             this.txt_tentaikhoan.Multiline = true;
             this.txt_tentaikhoan.Name = "txt_tentaikhoan";
             this.txt_tentaikhoan.Size = new System.Drawing.Size(227, 31);
@@ -112,7 +112,7 @@
             // 
             // txt_matkhaucu
             // 
-            this.txt_matkhaucu.Location = new System.Drawing.Point(184, 84);
+            this.txt_matkhaucu.Location = new System.Drawing.Point(247, 84);
             this.txt_matkhaucu.Multiline = true;
             this.txt_matkhaucu.Name = "txt_matkhaucu";
             this.txt_matkhaucu.Size = new System.Drawing.Size(227, 31);
@@ -120,7 +120,7 @@
             // 
             // txt_matkhaumoi
             // 
-            this.txt_matkhaumoi.Location = new System.Drawing.Point(184, 139);
+            this.txt_matkhaumoi.Location = new System.Drawing.Point(247, 139);
             this.txt_matkhaumoi.Multiline = true;
             this.txt_matkhaumoi.Name = "txt_matkhaumoi";
             this.txt_matkhaumoi.Size = new System.Drawing.Size(227, 31);
@@ -128,7 +128,7 @@
             // 
             // txt_nhaplaimatkhau
             // 
-            this.txt_nhaplaimatkhau.Location = new System.Drawing.Point(184, 197);
+            this.txt_nhaplaimatkhau.Location = new System.Drawing.Point(247, 197);
             this.txt_nhaplaimatkhau.Multiline = true;
             this.txt_nhaplaimatkhau.Name = "txt_nhaplaimatkhau";
             this.txt_nhaplaimatkhau.Size = new System.Drawing.Size(227, 31);
@@ -138,7 +138,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 328);
+            this.ClientSize = new System.Drawing.Size(516, 344);
             this.Controls.Add(this.txt_nhaplaimatkhau);
             this.Controls.Add(this.txt_matkhaumoi);
             this.Controls.Add(this.txt_matkhaucu);
@@ -151,7 +151,7 @@
             this.Controls.Add(this.lbl_tennguoidung);
             this.Name = "FormDoiMatKhau";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DoiMatKhau";
+            this.Text = "Đổi mật khẩu";
             this.ResumeLayout(false);
             this.PerformLayout();
 

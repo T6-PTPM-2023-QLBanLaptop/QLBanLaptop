@@ -33,10 +33,10 @@
             this.txt_matkhau = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txt_taikhoan = new System.Windows.Forms.TextBox();
+            this.btn_huybo = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_huybo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -107,6 +107,20 @@
             this.txt_taikhoan.Text = "Tài khoản";
             this.txt_taikhoan.Click += new System.EventHandler(this.txt_taikhoan_Click);
             // 
+            // btn_huybo
+            // 
+            this.btn_huybo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
+            this.btn_huybo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_huybo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_huybo.Location = new System.Drawing.Point(263, 437);
+            this.btn_huybo.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_huybo.Name = "btn_huybo";
+            this.btn_huybo.Size = new System.Drawing.Size(119, 45);
+            this.btn_huybo.TabIndex = 15;
+            this.btn_huybo.Text = "Hủy bỏ";
+            this.btn_huybo.UseVisualStyleBackColor = false;
+            this.btn_huybo.Click += new System.EventHandler(this.btn_huybo_Click);
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::GUI.Properties.Resources.password;
@@ -132,27 +146,13 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GUI.Properties.Resources._11zon_cropped;
-            this.pictureBox1.Location = new System.Drawing.Point(141, 24);
+            this.pictureBox1.Location = new System.Drawing.Point(131, 24);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 185);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
-            // 
-            // btn_huybo
-            // 
-            this.btn_huybo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
-            this.btn_huybo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_huybo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_huybo.Location = new System.Drawing.Point(263, 437);
-            this.btn_huybo.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_huybo.Name = "btn_huybo";
-            this.btn_huybo.Size = new System.Drawing.Size(119, 45);
-            this.btn_huybo.TabIndex = 15;
-            this.btn_huybo.Text = "Hủy bỏ";
-            this.btn_huybo.UseVisualStyleBackColor = false;
-            this.btn_huybo.Click += new System.EventHandler(this.btn_huybo_Click);
             // 
             // FormDangNhap
             // 
@@ -171,7 +171,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DangNhap";
+            this.Text = "Đăng nhập";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

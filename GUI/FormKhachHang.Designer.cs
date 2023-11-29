@@ -313,7 +313,7 @@
             this.Controls.Add(this.kHACHHANGDataGridView);
             this.Name = "FormKhachHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormKhachHang";
+            this.Text = "Khách hàng";
             this.Load += new System.EventHandler(this.FormKhachHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.kHACHHANGDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kHACHHANGBindingSource)).EndInit();

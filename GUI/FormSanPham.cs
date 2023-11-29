@@ -112,5 +112,37 @@ namespace GUI
             giaBanTextBox.Clear();
             maNCCComboBox.SelectedItem = null;
         }
+
+        private void btn_xuatexcel_Click(object sender, EventArgs e)
+        {
+            Microsoft.Office.Interop.Excel._Application app = new Microsoft.Office.Interop.Excel.Application();
+            Microsoft.Office.Interop.Excel._Workbook workbook = app.Workbooks.Add(Type.Missing);
+            Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
+            app.Visible = true;
+            worksheet = workbook.Sheets["Sheet1"];
+            worksheet = workbook.ActiveSheet;
+            worksheet.Name = "Exported from gridview";
+            if (sANPHAMDataGridView != null)
+            {
+                for (int i = 1; i < sANPHAMDataGridView.Columns.Count + 1; i++)
+                {
+                    if (sANPHAMDataGridView.Columns[i - 1] != null)
+                    {
+                        worksheet.Cells[1, i] = sANPHAMDataGridView.Columns[i - 1].HeaderText;
+                    }
+                }
+
+                for (int i = 0; i < sANPHAMDataGridView.Rows.Count; i++)
+                {
+                    for (int j = 0; j < sANPHAMDataGridView.Columns.Count; j++)
+                    {
+                        if (sANPHAMDataGridView.Rows[i].Cells[j].Value != null)
+                        {
+                            worksheet.Cells[i + 2, j + 1] = sANPHAMDataGridView.Rows[i].Cells[j].Value.ToString();
+                        }
+                    }
+                }
+            }
+        }
     }
 }
