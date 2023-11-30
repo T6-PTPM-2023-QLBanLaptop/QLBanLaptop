@@ -31,10 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDonHang));
             this.qLShoplaptopDataSet = new GUI.QLShoplaptopDataSet();
-            this.kHOHANGBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.kHOHANGTableAdapter = new GUI.QLShoplaptopDataSetTableAdapters.KHOHANGTableAdapter();
+            this.hOADONBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.hOADONTableAdapter = new GUI.QLShoplaptopDataSetTableAdapters.HOADONTableAdapter();
             this.tableAdapterManager = new GUI.QLShoplaptopDataSetTableAdapters.TableAdapterManager();
-            this.kHOHANGBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.hOADONBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
@@ -46,18 +46,28 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.kHOHANGBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.kHOHANGDataGridView = new System.Windows.Forms.DataGridView();
+            this.hOADONBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.hOADONDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cHITIETHOADONBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.cHITIETHOADONTableAdapter = new GUI.QLShoplaptopDataSetTableAdapters.CHITIETHOADONTableAdapter();
+            this.cHITIETHOADONDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.qLShoplaptopDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kHOHANGBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kHOHANGBindingNavigator)).BeginInit();
-            this.kHOHANGBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kHOHANGDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hOADONBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hOADONBindingNavigator)).BeginInit();
+            this.hOADONBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hOADONDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cHITIETHOADONBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cHITIETHOADONDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // qLShoplaptopDataSet
@@ -65,21 +75,22 @@
             this.qLShoplaptopDataSet.DataSetName = "QLShoplaptopDataSet";
             this.qLShoplaptopDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // kHOHANGBindingSource
+            // hOADONBindingSource
             // 
-            this.kHOHANGBindingSource.DataMember = "KHOHANG";
-            this.kHOHANGBindingSource.DataSource = this.qLShoplaptopDataSet;
+            this.hOADONBindingSource.DataMember = "HOADON";
+            this.hOADONBindingSource.DataSource = this.qLShoplaptopDataSet;
             // 
-            // kHOHANGTableAdapter
+            // hOADONTableAdapter
             // 
-            this.kHOHANGTableAdapter.ClearBeforeFill = true;
+            this.hOADONTableAdapter.ClearBeforeFill = true;
             // 
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.HOADONTableAdapter = null;
+            this.tableAdapterManager.CHITIETHOADONTableAdapter = this.cHITIETHOADONTableAdapter;
+            this.tableAdapterManager.HOADONTableAdapter = this.hOADONTableAdapter;
             this.tableAdapterManager.KHACHHANGTableAdapter = null;
-            this.tableAdapterManager.KHOHANGTableAdapter = this.kHOHANGTableAdapter;
+            this.tableAdapterManager.KHOHANGTableAdapter = null;
             this.tableAdapterManager.NHACUNGCAPTableAdapter = null;
             this.tableAdapterManager.NHANVIENTableAdapter = null;
             this.tableAdapterManager.PHANQUYENTableAdapter = null;
@@ -87,14 +98,14 @@
             this.tableAdapterManager.TAIKHOANTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = GUI.QLShoplaptopDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // kHOHANGBindingNavigator
+            // hOADONBindingNavigator
             // 
-            this.kHOHANGBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.kHOHANGBindingNavigator.BindingSource = this.kHOHANGBindingSource;
-            this.kHOHANGBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.kHOHANGBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.kHOHANGBindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.kHOHANGBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.hOADONBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.hOADONBindingNavigator.BindingSource = this.hOADONBindingSource;
+            this.hOADONBindingNavigator.CountItem = this.bindingNavigatorCountItem;
+            this.hOADONBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.hOADONBindingNavigator.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.hOADONBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
             this.bindingNavigatorSeparator,
@@ -106,17 +117,17 @@
             this.bindingNavigatorSeparator2,
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
-            this.kHOHANGBindingNavigatorSaveItem});
-            this.kHOHANGBindingNavigator.Location = new System.Drawing.Point(0, 0);
-            this.kHOHANGBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.kHOHANGBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.kHOHANGBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.kHOHANGBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.kHOHANGBindingNavigator.Name = "kHOHANGBindingNavigator";
-            this.kHOHANGBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.kHOHANGBindingNavigator.Size = new System.Drawing.Size(932, 27);
-            this.kHOHANGBindingNavigator.TabIndex = 0;
-            this.kHOHANGBindingNavigator.Text = "bindingNavigator1";
+            this.hOADONBindingNavigatorSaveItem});
+            this.hOADONBindingNavigator.Location = new System.Drawing.Point(0, 0);
+            this.hOADONBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.hOADONBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.hOADONBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.hOADONBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.hOADONBindingNavigator.Name = "hOADONBindingNavigator";
+            this.hOADONBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.hOADONBindingNavigator.Size = new System.Drawing.Size(794, 27);
+            this.hOADONBindingNavigator.TabIndex = 0;
+            this.hOADONBindingNavigator.Text = "bindingNavigator1";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -203,78 +214,135 @@
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
-            // kHOHANGBindingNavigatorSaveItem
+            // hOADONBindingNavigatorSaveItem
             // 
-            this.kHOHANGBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.kHOHANGBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("kHOHANGBindingNavigatorSaveItem.Image")));
-            this.kHOHANGBindingNavigatorSaveItem.Name = "kHOHANGBindingNavigatorSaveItem";
-            this.kHOHANGBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
-            this.kHOHANGBindingNavigatorSaveItem.Text = "Save Data";
-            this.kHOHANGBindingNavigatorSaveItem.Click += new System.EventHandler(this.kHOHANGBindingNavigatorSaveItem_Click);
+            this.hOADONBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.hOADONBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("hOADONBindingNavigatorSaveItem.Image")));
+            this.hOADONBindingNavigatorSaveItem.Name = "hOADONBindingNavigatorSaveItem";
+            this.hOADONBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
+            this.hOADONBindingNavigatorSaveItem.Text = "Save Data";
+            this.hOADONBindingNavigatorSaveItem.Click += new System.EventHandler(this.hOADONBindingNavigatorSaveItem_Click);
             // 
-            // kHOHANGDataGridView
+            // hOADONDataGridView
             // 
-            this.kHOHANGDataGridView.AutoGenerateColumns = false;
-            this.kHOHANGDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.kHOHANGDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.hOADONDataGridView.AutoGenerateColumns = false;
+            this.hOADONDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.hOADONDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
-            this.kHOHANGDataGridView.DataSource = this.kHOHANGBindingSource;
-            this.kHOHANGDataGridView.Location = new System.Drawing.Point(49, 80);
-            this.kHOHANGDataGridView.Name = "kHOHANGDataGridView";
-            this.kHOHANGDataGridView.RowTemplate.Height = 24;
-            this.kHOHANGDataGridView.Size = new System.Drawing.Size(820, 488);
-            this.kHOHANGDataGridView.TabIndex = 1;
+            this.hOADONDataGridView.DataSource = this.hOADONBindingSource;
+            this.hOADONDataGridView.Location = new System.Drawing.Point(45, 71);
+            this.hOADONDataGridView.Name = "hOADONDataGridView";
+            this.hOADONDataGridView.RowTemplate.Height = 24;
+            this.hOADONDataGridView.Size = new System.Drawing.Size(632, 220);
+            this.hOADONDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
             // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "MaKho";
-            this.dataGridViewTextBoxColumn1.HeaderText = "MaKho";
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "MaHD";
+            this.dataGridViewTextBoxColumn1.HeaderText = "MaHD";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             // 
             // dataGridViewTextBoxColumn2
             // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "MaSP";
-            this.dataGridViewTextBoxColumn2.HeaderText = "MaSP";
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "MaNV";
+            this.dataGridViewTextBoxColumn2.HeaderText = "MaNV";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // dataGridViewTextBoxColumn3
             // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "TenSP";
-            this.dataGridViewTextBoxColumn3.HeaderText = "TenSP";
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "MaKH";
+            this.dataGridViewTextBoxColumn3.HeaderText = "MaKH";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
             // dataGridViewTextBoxColumn4
             // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "SoLuongTon";
-            this.dataGridViewTextBoxColumn4.HeaderText = "SoLuongTon";
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "NgayBan";
+            this.dataGridViewTextBoxColumn4.HeaderText = "NgayBan";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
             // dataGridViewTextBoxColumn5
             // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "NgayNhap";
-            this.dataGridViewTextBoxColumn5.HeaderText = "NgayNhap";
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "TongTien";
+            this.dataGridViewTextBoxColumn5.HeaderText = "TongTien";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // cHITIETHOADONBindingSource
+            // 
+            this.cHITIETHOADONBindingSource.DataMember = "CHITIETHOADON";
+            this.cHITIETHOADONBindingSource.DataSource = this.qLShoplaptopDataSet;
+            // 
+            // cHITIETHOADONTableAdapter
+            // 
+            this.cHITIETHOADONTableAdapter.ClearBeforeFill = true;
+            // 
+            // cHITIETHOADONDataGridView
+            // 
+            this.cHITIETHOADONDataGridView.AutoGenerateColumns = false;
+            this.cHITIETHOADONDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.cHITIETHOADONDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10});
+            this.cHITIETHOADONDataGridView.DataSource = this.cHITIETHOADONBindingSource;
+            this.cHITIETHOADONDataGridView.Location = new System.Drawing.Point(45, 366);
+            this.cHITIETHOADONDataGridView.Name = "cHITIETHOADONDataGridView";
+            this.cHITIETHOADONDataGridView.RowTemplate.Height = 24;
+            this.cHITIETHOADONDataGridView.Size = new System.Drawing.Size(632, 241);
+            this.cHITIETHOADONDataGridView.TabIndex = 2;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "MaHD";
+            this.dataGridViewTextBoxColumn6.HeaderText = "MaHD";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "MaSP";
+            this.dataGridViewTextBoxColumn7.HeaderText = "MaSP";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "SoLuong";
+            this.dataGridViewTextBoxColumn8.HeaderText = "SoLuong";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "DonGia";
+            this.dataGridViewTextBoxColumn9.HeaderText = "DonGia";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "ThanhTien";
+            this.dataGridViewTextBoxColumn10.HeaderText = "ThanhTien";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
             // FormDonHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(932, 641);
-            this.Controls.Add(this.kHOHANGDataGridView);
-            this.Controls.Add(this.kHOHANGBindingNavigator);
+            this.ClientSize = new System.Drawing.Size(794, 658);
+            this.Controls.Add(this.cHITIETHOADONDataGridView);
+            this.Controls.Add(this.hOADONDataGridView);
+            this.Controls.Add(this.hOADONBindingNavigator);
             this.Name = "FormDonHang";
             this.Text = "Đơn hàng";
             this.Load += new System.EventHandler(this.FormDonHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.qLShoplaptopDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kHOHANGBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kHOHANGBindingNavigator)).EndInit();
-            this.kHOHANGBindingNavigator.ResumeLayout(false);
-            this.kHOHANGBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kHOHANGDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hOADONBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hOADONBindingNavigator)).EndInit();
+            this.hOADONBindingNavigator.ResumeLayout(false);
+            this.hOADONBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hOADONDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cHITIETHOADONBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cHITIETHOADONDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -283,10 +351,10 @@
         #endregion
 
         private QLShoplaptopDataSet qLShoplaptopDataSet;
-        private System.Windows.Forms.BindingSource kHOHANGBindingSource;
-        private QLShoplaptopDataSetTableAdapters.KHOHANGTableAdapter kHOHANGTableAdapter;
+        private System.Windows.Forms.BindingSource hOADONBindingSource;
+        private QLShoplaptopDataSetTableAdapters.HOADONTableAdapter hOADONTableAdapter;
         private QLShoplaptopDataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.BindingNavigator kHOHANGBindingNavigator;
+        private System.Windows.Forms.BindingNavigator hOADONBindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
@@ -298,12 +366,21 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ToolStripButton kHOHANGBindingNavigatorSaveItem;
-        private System.Windows.Forms.DataGridView kHOHANGDataGridView;
+        private System.Windows.Forms.ToolStripButton hOADONBindingNavigatorSaveItem;
+        private QLShoplaptopDataSetTableAdapters.CHITIETHOADONTableAdapter cHITIETHOADONTableAdapter;
+        private System.Windows.Forms.DataGridView hOADONDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.BindingSource cHITIETHOADONBindingSource;
+        private System.Windows.Forms.DataGridView cHITIETHOADONDataGridView;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+
     }
 }
