@@ -20,3 +20,14 @@ E:\QLShopLaptop\ThietKeControls\bin\Debug\DAL.pdb
 E:\QLShopLaptop\ThietKeControls\obj\Debug\ThietKeControls.csprojResolveAssemblyReference.cache
 E:\QLShopLaptop\ThietKeControls\obj\Debug\ThietKeControls.dll
 E:\QLShopLaptop\ThietKeControls\obj\Debug\ThietKeControls.pdb
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\bin\Debug\ThietKeControls.dll
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\bin\Debug\ThietKeControls.pdb
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\bin\Debug\BLL.dll
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\bin\Debug\DTO.dll
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\bin\Debug\DAL.dll
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\bin\Debug\BLL.pdb
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\bin\Debug\DTO.pdb
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\bin\Debug\DAL.pdb
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\obj\Debug\ThietKeControls.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\obj\Debug\ThietKeControls.dll
+C:\Users\ASUS\Videos\QLShopLaptop\ThietKeControls\obj\Debug\ThietKeControls.pdb
