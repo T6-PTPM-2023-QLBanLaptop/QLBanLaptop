@@ -278,7 +278,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(906, 553);
+            this.ClientSize = new System.Drawing.Size(906, 631);
             this.Controls.Add(this.sANPHAMDataGridView);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_sua);

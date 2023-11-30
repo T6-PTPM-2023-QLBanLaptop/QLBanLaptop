@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.PanelMenu = new System.Windows.Forms.Panel();
+            this.btn_donhang = new FontAwesome.Sharp.IconButton();
             this.btn_khohang = new FontAwesome.Sharp.IconButton();
             this.btn_nhanvien = new FontAwesome.Sharp.IconButton();
             this.btn_taikhoan = new FontAwesome.Sharp.IconButton();
@@ -48,7 +49,6 @@
             this.panelTitlebar = new System.Windows.Forms.Panel();
             this.iconmenusmall = new FontAwesome.Sharp.IconPictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.iconDonhang = new FontAwesome.Sharp.IconButton();
             this.PanelMenu.SuspendLayout();
             this.PanelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
@@ -61,7 +61,7 @@
             // PanelMenu
             // 
             this.PanelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.PanelMenu.Controls.Add(this.iconDonhang);
+            this.PanelMenu.Controls.Add(this.btn_donhang);
             this.PanelMenu.Controls.Add(this.btn_khohang);
             this.PanelMenu.Controls.Add(this.btn_nhanvien);
             this.PanelMenu.Controls.Add(this.btn_taikhoan);
@@ -77,6 +77,30 @@
             this.PanelMenu.Name = "PanelMenu";
             this.PanelMenu.Size = new System.Drawing.Size(319, 682);
             this.PanelMenu.TabIndex = 4;
+            // 
+            // btn_donhang
+            // 
+            this.btn_donhang.FlatAppearance.BorderSize = 0;
+            this.btn_donhang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_donhang.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btn_donhang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_donhang.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_donhang.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
+            this.btn_donhang.IconColor = System.Drawing.Color.Gainsboro;
+            this.btn_donhang.IconSize = 35;
+            this.btn_donhang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_donhang.Location = new System.Drawing.Point(0, 475);
+            this.btn_donhang.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_donhang.Name = "btn_donhang";
+            this.btn_donhang.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
+            this.btn_donhang.Rotation = 0D;
+            this.btn_donhang.Size = new System.Drawing.Size(290, 62);
+            this.btn_donhang.TabIndex = 12;
+            this.btn_donhang.Text = "Đơn hàng";
+            this.btn_donhang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_donhang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_donhang.UseVisualStyleBackColor = true;
+            this.btn_donhang.Click += new System.EventHandler(this.btn_donhang_Click);
             // 
             // btn_khohang
             // 
@@ -383,29 +407,6 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // iconDonhang
-            // 
-            this.iconDonhang.FlatAppearance.BorderSize = 0;
-            this.iconDonhang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconDonhang.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconDonhang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconDonhang.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconDonhang.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
-            this.iconDonhang.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconDonhang.IconSize = 35;
-            this.iconDonhang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconDonhang.Location = new System.Drawing.Point(0, 475);
-            this.iconDonhang.Margin = new System.Windows.Forms.Padding(4);
-            this.iconDonhang.Name = "iconDonhang";
-            this.iconDonhang.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.iconDonhang.Rotation = 0D;
-            this.iconDonhang.Size = new System.Drawing.Size(290, 62);
-            this.iconDonhang.TabIndex = 12;
-            this.iconDonhang.Text = "Đơn hàng";
-            this.iconDonhang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconDonhang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconDonhang.UseVisualStyleBackColor = true;
-            // 
             // FormTrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -451,7 +452,7 @@
         private System.Windows.Forms.Timer timer1;
         private FontAwesome.Sharp.IconButton btn_khohang;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private FontAwesome.Sharp.IconButton iconDonhang;
+        private FontAwesome.Sharp.IconButton btn_donhang;
 
 
 

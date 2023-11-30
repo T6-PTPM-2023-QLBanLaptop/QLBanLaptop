@@ -47,3 +47,4 @@ E:\QLShopLaptop\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 E:\QLShopLaptop\GUI\obj\Debug\GUI.FormNhaCungCap.resources
 E:\QLShopLaptop\GUI\obj\Debug\GUI.FormNhanVien.resources
 E:\QLShopLaptop\GUI\obj\Debug\GUI.FormKhoHang.resources
+E:\QLShopLaptop\GUI\obj\Debug\GUI.FormDonHang.resources

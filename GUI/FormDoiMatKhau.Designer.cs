@@ -45,7 +45,7 @@
             this.btn_huy.Location = new System.Drawing.Point(396, 260);
             this.btn_huy.Margin = new System.Windows.Forms.Padding(4);
             this.btn_huy.Name = "btn_huy";
-            this.btn_huy.Size = new System.Drawing.Size(78, 44);
+            this.btn_huy.Size = new System.Drawing.Size(78, 57);
             this.btn_huy.TabIndex = 17;
             this.btn_huy.Text = "Hủy bỏ";
             this.btn_huy.UseVisualStyleBackColor = true;
@@ -56,7 +56,7 @@
             this.btn_doimatkhau.Location = new System.Drawing.Point(247, 260);
             this.btn_doimatkhau.Margin = new System.Windows.Forms.Padding(4);
             this.btn_doimatkhau.Name = "btn_doimatkhau";
-            this.btn_doimatkhau.Size = new System.Drawing.Size(117, 44);
+            this.btn_doimatkhau.Size = new System.Drawing.Size(121, 57);
             this.btn_doimatkhau.TabIndex = 16;
             this.btn_doimatkhau.Text = "Đổi mật khẩu";
             this.btn_doimatkhau.UseVisualStyleBackColor = true;

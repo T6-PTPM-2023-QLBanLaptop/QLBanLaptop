@@ -206,6 +206,12 @@ namespace GUI
         {
             activebtn(sender, RGBColors.color2);
             motrangcon(new FormKhoHang());
+        }
+
+        private void btn_donhang_Click(object sender, EventArgs e)
+        {
+            activebtn(sender, RGBColors.color3);
+            motrangcon(new FormDonHang());
         }     
     }
 }
