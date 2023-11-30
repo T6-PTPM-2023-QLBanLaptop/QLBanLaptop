@@ -13,7 +13,7 @@ namespace DAL
     {
         public static SqlConnection Connect()
         {
-            string strcon = @"Data Source=DESKTOP-NVIQA16\SQLEXPRESS;Initial Catalog=QLShoplaptop;Persist Security Info=True;User ID=sa;Password=123";
+            string strcon = @"Data Source=DESKTOP-K3P9F51;Initial Catalog=QLShoplaptop;Persist Security Info=True;User ID=sa;Password=sa";
             SqlConnection conn = new SqlConnection(strcon);
             return conn;
         }

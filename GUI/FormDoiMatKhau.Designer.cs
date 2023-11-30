@@ -42,10 +42,10 @@
             // 
             // btn_huy
             // 
-            this.btn_huy.Location = new System.Drawing.Point(396, 260);
+            this.btn_huy.Location = new System.Drawing.Point(412, 287);
             this.btn_huy.Margin = new System.Windows.Forms.Padding(4);
             this.btn_huy.Name = "btn_huy";
-            this.btn_huy.Size = new System.Drawing.Size(78, 57);
+            this.btn_huy.Size = new System.Drawing.Size(126, 58);
             this.btn_huy.TabIndex = 17;
             this.btn_huy.Text = "Hủy bỏ";
             this.btn_huy.UseVisualStyleBackColor = true;
@@ -53,10 +53,10 @@
             // 
             // btn_doimatkhau
             // 
-            this.btn_doimatkhau.Location = new System.Drawing.Point(247, 260);
+            this.btn_doimatkhau.Location = new System.Drawing.Point(178, 287);
             this.btn_doimatkhau.Margin = new System.Windows.Forms.Padding(4);
             this.btn_doimatkhau.Name = "btn_doimatkhau";
-            this.btn_doimatkhau.Size = new System.Drawing.Size(121, 57);
+            this.btn_doimatkhau.Size = new System.Drawing.Size(169, 58);
             this.btn_doimatkhau.TabIndex = 16;
             this.btn_doimatkhau.Text = "Đổi mật khẩu";
             this.btn_doimatkhau.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             // lbl_matkhau
             // 
             this.lbl_matkhau.AutoSize = true;
-            this.lbl_matkhau.Location = new System.Drawing.Point(46, 87);
+            this.lbl_matkhau.Location = new System.Drawing.Point(91, 112);
             this.lbl_matkhau.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_matkhau.Name = "lbl_matkhau";
             this.lbl_matkhau.Size = new System.Drawing.Size(85, 17);
@@ -75,7 +75,7 @@
             // lbl_tennguoidung
             // 
             this.lbl_tennguoidung.AutoSize = true;
-            this.lbl_tennguoidung.Location = new System.Drawing.Point(46, 31);
+            this.lbl_tennguoidung.Location = new System.Drawing.Point(91, 56);
             this.lbl_tennguoidung.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_tennguoidung.Name = "lbl_tennguoidung";
             this.lbl_tennguoidung.Size = new System.Drawing.Size(95, 17);
@@ -85,7 +85,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 200);
+            this.label1.Location = new System.Drawing.Point(91, 225);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 17);
@@ -95,7 +95,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 142);
+            this.label2.Location = new System.Drawing.Point(91, 167);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 17);
@@ -104,41 +104,41 @@
             // 
             // txt_tentaikhoan
             // 
-            this.txt_tentaikhoan.Location = new System.Drawing.Point(247, 28);
+            this.txt_tentaikhoan.Location = new System.Drawing.Point(292, 53);
             this.txt_tentaikhoan.Multiline = true;
             this.txt_tentaikhoan.Name = "txt_tentaikhoan";
-            this.txt_tentaikhoan.Size = new System.Drawing.Size(227, 31);
+            this.txt_tentaikhoan.Size = new System.Drawing.Size(246, 31);
             this.txt_tentaikhoan.TabIndex = 22;
             // 
             // txt_matkhaucu
             // 
-            this.txt_matkhaucu.Location = new System.Drawing.Point(247, 84);
+            this.txt_matkhaucu.Location = new System.Drawing.Point(292, 109);
             this.txt_matkhaucu.Multiline = true;
             this.txt_matkhaucu.Name = "txt_matkhaucu";
-            this.txt_matkhaucu.Size = new System.Drawing.Size(227, 31);
+            this.txt_matkhaucu.Size = new System.Drawing.Size(246, 31);
             this.txt_matkhaucu.TabIndex = 23;
             // 
             // txt_matkhaumoi
             // 
-            this.txt_matkhaumoi.Location = new System.Drawing.Point(247, 139);
+            this.txt_matkhaumoi.Location = new System.Drawing.Point(292, 164);
             this.txt_matkhaumoi.Multiline = true;
             this.txt_matkhaumoi.Name = "txt_matkhaumoi";
-            this.txt_matkhaumoi.Size = new System.Drawing.Size(227, 31);
+            this.txt_matkhaumoi.Size = new System.Drawing.Size(246, 31);
             this.txt_matkhaumoi.TabIndex = 24;
             // 
             // txt_nhaplaimatkhau
             // 
-            this.txt_nhaplaimatkhau.Location = new System.Drawing.Point(247, 197);
+            this.txt_nhaplaimatkhau.Location = new System.Drawing.Point(292, 222);
             this.txt_nhaplaimatkhau.Multiline = true;
             this.txt_nhaplaimatkhau.Name = "txt_nhaplaimatkhau";
-            this.txt_nhaplaimatkhau.Size = new System.Drawing.Size(227, 31);
+            this.txt_nhaplaimatkhau.Size = new System.Drawing.Size(246, 31);
             this.txt_nhaplaimatkhau.TabIndex = 25;
             // 
             // FormDoiMatKhau
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(516, 344);
+            this.ClientSize = new System.Drawing.Size(696, 427);
             this.Controls.Add(this.txt_nhaplaimatkhau);
             this.Controls.Add(this.txt_matkhaumoi);
             this.Controls.Add(this.txt_matkhaucu);

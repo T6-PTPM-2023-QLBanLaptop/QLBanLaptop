@@ -64,6 +64,8 @@
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.CHITIETHOADON1TableAdapter = null;
+            this.tableAdapterManager.CHITIETHOADONTableAdapter = null;
             this.tableAdapterManager.HOADONTableAdapter = null;
             this.tableAdapterManager.KHACHHANGTableAdapter = null;
             this.tableAdapterManager.KHOHANGTableAdapter = this.kHOHANGTableAdapter;
@@ -85,10 +87,10 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
             this.kHOHANGDataGridView.DataSource = this.kHOHANGBindingSource;
-            this.kHOHANGDataGridView.Location = new System.Drawing.Point(30, 32);
+            this.kHOHANGDataGridView.Location = new System.Drawing.Point(194, 33);
             this.kHOHANGDataGridView.Name = "kHOHANGDataGridView";
             this.kHOHANGDataGridView.RowTemplate.Height = 24;
-            this.kHOHANGDataGridView.Size = new System.Drawing.Size(741, 368);
+            this.kHOHANGDataGridView.Size = new System.Drawing.Size(741, 396);
             this.kHOHANGDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -123,9 +125,9 @@
             // 
             // btn_lammoi
             // 
-            this.btn_lammoi.Location = new System.Drawing.Point(857, 32);
+            this.btn_lammoi.Location = new System.Drawing.Point(1020, 63);
             this.btn_lammoi.Name = "btn_lammoi";
-            this.btn_lammoi.Size = new System.Drawing.Size(125, 59);
+            this.btn_lammoi.Size = new System.Drawing.Size(174, 77);
             this.btn_lammoi.TabIndex = 2;
             this.btn_lammoi.Text = "Làm mới";
             this.btn_lammoi.UseVisualStyleBackColor = true;
@@ -133,9 +135,9 @@
             // 
             // btn_xoa
             // 
-            this.btn_xoa.Location = new System.Drawing.Point(857, 152);
+            this.btn_xoa.Location = new System.Drawing.Point(1020, 183);
             this.btn_xoa.Name = "btn_xoa";
-            this.btn_xoa.Size = new System.Drawing.Size(125, 59);
+            this.btn_xoa.Size = new System.Drawing.Size(174, 77);
             this.btn_xoa.TabIndex = 2;
             this.btn_xoa.Text = "Xóa sản phẩm trong kho";
             this.btn_xoa.UseVisualStyleBackColor = true;
@@ -143,9 +145,9 @@
             // 
             // btn_xuatexcel
             // 
-            this.btn_xuatexcel.Location = new System.Drawing.Point(857, 273);
+            this.btn_xuatexcel.Location = new System.Drawing.Point(1020, 304);
             this.btn_xuatexcel.Name = "btn_xuatexcel";
-            this.btn_xuatexcel.Size = new System.Drawing.Size(125, 59);
+            this.btn_xuatexcel.Size = new System.Drawing.Size(174, 77);
             this.btn_xuatexcel.TabIndex = 2;
             this.btn_xuatexcel.Text = "Xuất Excel";
             this.btn_xuatexcel.UseVisualStyleBackColor = true;
@@ -155,7 +157,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1060, 412);
+            this.ClientSize = new System.Drawing.Size(1325, 539);
             this.Controls.Add(this.btn_xuatexcel);
             this.Controls.Add(this.btn_xoa);
             this.Controls.Add(this.btn_lammoi);

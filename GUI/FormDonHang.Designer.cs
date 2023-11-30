@@ -64,6 +64,7 @@
             this.btn_xoa = new System.Windows.Forms.Button();
             this.btn_them = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.maSPTextBox1 = new System.Windows.Forms.TextBox();
             this.sANPHAMBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tenSPTextBox = new System.Windows.Forms.TextBox();
@@ -83,7 +84,6 @@
             this.cHITIETHOADONBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cHITIETHOADON1TableAdapter = new GUI.QLShoplaptopDataSetTableAdapters.CHITIETHOADON1TableAdapter();
             this.sANPHAMTableAdapter = new GUI.QLShoplaptopDataSetTableAdapters.SANPHAMTableAdapter();
-            this.txtSoLuong = new System.Windows.Forms.TextBox();
             maHDLabel = new System.Windows.Forms.Label();
             maNVLabel = new System.Windows.Forms.Label();
             maKHLabel = new System.Windows.Forms.Label();
@@ -109,7 +109,7 @@
             // maHDLabel
             // 
             maHDLabel.AutoSize = true;
-            maHDLabel.Location = new System.Drawing.Point(46, 47);
+            maHDLabel.Location = new System.Drawing.Point(77, 34);
             maHDLabel.Name = "maHDLabel";
             maHDLabel.Size = new System.Drawing.Size(55, 17);
             maHDLabel.TabIndex = 4;
@@ -118,7 +118,7 @@
             // maNVLabel
             // 
             maNVLabel.AutoSize = true;
-            maNVLabel.Location = new System.Drawing.Point(46, 75);
+            maNVLabel.Location = new System.Drawing.Point(77, 62);
             maNVLabel.Name = "maNVLabel";
             maNVLabel.Size = new System.Drawing.Size(54, 17);
             maNVLabel.TabIndex = 6;
@@ -127,7 +127,7 @@
             // maKHLabel
             // 
             maKHLabel.AutoSize = true;
-            maKHLabel.Location = new System.Drawing.Point(46, 103);
+            maKHLabel.Location = new System.Drawing.Point(77, 90);
             maKHLabel.Name = "maKHLabel";
             maKHLabel.Size = new System.Drawing.Size(54, 17);
             maKHLabel.TabIndex = 8;
@@ -136,7 +136,7 @@
             // ngayBanLabel
             // 
             ngayBanLabel.AutoSize = true;
-            ngayBanLabel.Location = new System.Drawing.Point(46, 132);
+            ngayBanLabel.Location = new System.Drawing.Point(77, 119);
             ngayBanLabel.Name = "ngayBanLabel";
             ngayBanLabel.Size = new System.Drawing.Size(74, 17);
             ngayBanLabel.TabIndex = 10;
@@ -145,7 +145,7 @@
             // tongTienLabel
             // 
             tongTienLabel.AutoSize = true;
-            tongTienLabel.Location = new System.Drawing.Point(46, 159);
+            tongTienLabel.Location = new System.Drawing.Point(77, 146);
             tongTienLabel.Name = "tongTienLabel";
             tongTienLabel.Size = new System.Drawing.Size(77, 17);
             tongTienLabel.TabIndex = 12;
@@ -154,7 +154,7 @@
             // maHDLabel1
             // 
             maHDLabel1.AutoSize = true;
-            maHDLabel1.Location = new System.Drawing.Point(299, 43);
+            maHDLabel1.Location = new System.Drawing.Point(366, 54);
             maHDLabel1.Name = "maHDLabel1";
             maHDLabel1.Size = new System.Drawing.Size(55, 17);
             maHDLabel1.TabIndex = 3;
@@ -163,16 +163,16 @@
             // soLuongLabel
             // 
             soLuongLabel.AutoSize = true;
-            soLuongLabel.Location = new System.Drawing.Point(285, 131);
+            soLuongLabel.Location = new System.Drawing.Point(370, 142);
             soLuongLabel.Name = "soLuongLabel";
-            soLuongLabel.Size = new System.Drawing.Size(73, 17);
+            soLuongLabel.Size = new System.Drawing.Size(51, 17);
             soLuongLabel.TabIndex = 7;
-            soLuongLabel.Text = "So Luong:";
+            soLuongLabel.Text = "SL SP:";
             // 
             // donGiaLabel
             // 
             donGiaLabel.AutoSize = true;
-            donGiaLabel.Location = new System.Drawing.Point(294, 165);
+            donGiaLabel.Location = new System.Drawing.Point(361, 176);
             donGiaLabel.Name = "donGiaLabel";
             donGiaLabel.Size = new System.Drawing.Size(64, 17);
             donGiaLabel.TabIndex = 9;
@@ -181,7 +181,7 @@
             // maSPLabel1
             // 
             maSPLabel1.AutoSize = true;
-            maSPLabel1.Location = new System.Drawing.Point(299, 71);
+            maSPLabel1.Location = new System.Drawing.Point(366, 82);
             maSPLabel1.Name = "maSPLabel1";
             maSPLabel1.Size = new System.Drawing.Size(53, 17);
             maSPLabel1.TabIndex = 157;
@@ -190,7 +190,7 @@
             // tenSPLabel
             // 
             tenSPLabel.AutoSize = true;
-            tenSPLabel.Location = new System.Drawing.Point(299, 97);
+            tenSPLabel.Location = new System.Drawing.Point(366, 108);
             tenSPLabel.Name = "tenSPLabel";
             tenSPLabel.Size = new System.Drawing.Size(59, 17);
             tenSPLabel.TabIndex = 159;
@@ -207,10 +207,10 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
             this.hOADONDataGridView.DataSource = this.hOADONBindingSource;
-            this.hOADONDataGridView.Location = new System.Drawing.Point(387, 32);
+            this.hOADONDataGridView.Location = new System.Drawing.Point(415, 34);
             this.hOADONDataGridView.Name = "hOADONDataGridView";
             this.hOADONDataGridView.RowTemplate.Height = 24;
-            this.hOADONDataGridView.Size = new System.Drawing.Size(555, 209);
+            this.hOADONDataGridView.Size = new System.Drawing.Size(543, 207);
             this.hOADONDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -264,7 +264,7 @@
             this.dataGridViewTextBoxColumn9,
             this.dataGridViewTextBoxColumn10});
             this.cHITIETHOADON1DataGridView.DataSource = this.cHITIETHOADON1BindingSource;
-            this.cHITIETHOADON1DataGridView.Location = new System.Drawing.Point(520, 48);
+            this.cHITIETHOADON1DataGridView.Location = new System.Drawing.Point(587, 49);
             this.cHITIETHOADON1DataGridView.Name = "cHITIETHOADON1DataGridView";
             this.cHITIETHOADON1DataGridView.RowTemplate.Height = 24;
             this.cHITIETHOADON1DataGridView.Size = new System.Drawing.Size(544, 192);
@@ -308,7 +308,7 @@
             // maHDTextBox
             // 
             this.maHDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.hOADONBindingSource, "MaHD", true));
-            this.maHDTextBox.Location = new System.Drawing.Point(129, 44);
+            this.maHDTextBox.Location = new System.Drawing.Point(160, 31);
             this.maHDTextBox.Name = "maHDTextBox";
             this.maHDTextBox.Size = new System.Drawing.Size(200, 22);
             this.maHDTextBox.TabIndex = 5;
@@ -317,7 +317,7 @@
             // maNVTextBox
             // 
             this.maNVTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.hOADONBindingSource, "MaNV", true));
-            this.maNVTextBox.Location = new System.Drawing.Point(129, 72);
+            this.maNVTextBox.Location = new System.Drawing.Point(160, 59);
             this.maNVTextBox.Name = "maNVTextBox";
             this.maNVTextBox.Size = new System.Drawing.Size(200, 22);
             this.maNVTextBox.TabIndex = 7;
@@ -325,7 +325,7 @@
             // maKHTextBox
             // 
             this.maKHTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.hOADONBindingSource, "MaKH", true));
-            this.maKHTextBox.Location = new System.Drawing.Point(129, 100);
+            this.maKHTextBox.Location = new System.Drawing.Point(160, 87);
             this.maKHTextBox.Name = "maKHTextBox";
             this.maKHTextBox.Size = new System.Drawing.Size(200, 22);
             this.maKHTextBox.TabIndex = 9;
@@ -333,7 +333,7 @@
             // ngayBanDateTimePicker
             // 
             this.ngayBanDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.hOADONBindingSource, "NgayBan", true));
-            this.ngayBanDateTimePicker.Location = new System.Drawing.Point(129, 128);
+            this.ngayBanDateTimePicker.Location = new System.Drawing.Point(160, 115);
             this.ngayBanDateTimePicker.Name = "ngayBanDateTimePicker";
             this.ngayBanDateTimePicker.Size = new System.Drawing.Size(200, 22);
             this.ngayBanDateTimePicker.TabIndex = 11;
@@ -342,7 +342,7 @@
             // 
             this.tongTienTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.hOADONBindingSource, "TongTien", true));
             this.tongTienTextBox.Enabled = false;
-            this.tongTienTextBox.Location = new System.Drawing.Point(129, 156);
+            this.tongTienTextBox.Location = new System.Drawing.Point(160, 143);
             this.tongTienTextBox.Name = "tongTienTextBox";
             this.tongTienTextBox.Size = new System.Drawing.Size(200, 22);
             this.tongTienTextBox.TabIndex = 13;
@@ -363,16 +363,16 @@
             this.groupBox1.Controls.Add(maKHLabel);
             this.groupBox1.Controls.Add(ngayBanLabel);
             this.groupBox1.Controls.Add(this.maKHTextBox);
-            this.groupBox1.Location = new System.Drawing.Point(30, 27);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1070, 273);
+            this.groupBox1.Size = new System.Drawing.Size(964, 273);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Đơn Hàng";
             // 
             // btn_sua
             // 
-            this.btn_sua.Location = new System.Drawing.Point(235, 208);
+            this.btn_sua.Location = new System.Drawing.Point(294, 208);
             this.btn_sua.Name = "btn_sua";
             this.btn_sua.Size = new System.Drawing.Size(66, 33);
             this.btn_sua.TabIndex = 153;
@@ -382,7 +382,7 @@
             // 
             // btn_xoa
             // 
-            this.btn_xoa.Location = new System.Drawing.Point(129, 208);
+            this.btn_xoa.Location = new System.Drawing.Point(188, 208);
             this.btn_xoa.Name = "btn_xoa";
             this.btn_xoa.Size = new System.Drawing.Size(66, 33);
             this.btn_xoa.TabIndex = 154;
@@ -392,7 +392,7 @@
             // 
             // btn_them
             // 
-            this.btn_them.Location = new System.Drawing.Point(22, 208);
+            this.btn_them.Location = new System.Drawing.Point(81, 208);
             this.btn_them.Name = "btn_them";
             this.btn_them.Size = new System.Drawing.Size(66, 33);
             this.btn_them.TabIndex = 155;
@@ -404,6 +404,7 @@
             // 
             this.groupBox2.Controls.Add(this.txtSoLuong);
             this.groupBox2.Controls.Add(maSPLabel1);
+            this.groupBox2.Controls.Add(this.cHITIETHOADON1DataGridView);
             this.groupBox2.Controls.Add(this.maSPTextBox1);
             this.groupBox2.Controls.Add(tenSPLabel);
             this.groupBox2.Controls.Add(this.tenSPTextBox);
@@ -415,18 +416,24 @@
             this.groupBox2.Controls.Add(this.maHDTextBox1);
             this.groupBox2.Controls.Add(soLuongLabel);
             this.groupBox2.Controls.Add(donGiaLabel);
-            this.groupBox2.Controls.Add(this.cHITIETHOADON1DataGridView);
-            this.groupBox2.Location = new System.Drawing.Point(31, 330);
+            this.groupBox2.Location = new System.Drawing.Point(12, 307);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1069, 299);
+            this.groupBox2.Size = new System.Drawing.Size(1146, 299);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chi Tiết Đơn Hàng";
             // 
+            // txtSoLuong
+            // 
+            this.txtSoLuong.Location = new System.Drawing.Point(430, 142);
+            this.txtSoLuong.Name = "txtSoLuong";
+            this.txtSoLuong.Size = new System.Drawing.Size(136, 22);
+            this.txtSoLuong.TabIndex = 165;
+            // 
             // maSPTextBox1
             // 
             this.maSPTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sANPHAMBindingSource, "MaSP", true));
-            this.maSPTextBox1.Location = new System.Drawing.Point(363, 66);
+            this.maSPTextBox1.Location = new System.Drawing.Point(430, 77);
             this.maSPTextBox1.Name = "maSPTextBox1";
             this.maSPTextBox1.Size = new System.Drawing.Size(136, 22);
             this.maSPTextBox1.TabIndex = 158;
@@ -439,7 +446,7 @@
             // tenSPTextBox
             // 
             this.tenSPTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sANPHAMBindingSource, "TenSP", true));
-            this.tenSPTextBox.Location = new System.Drawing.Point(363, 94);
+            this.tenSPTextBox.Location = new System.Drawing.Point(430, 105);
             this.tenSPTextBox.Name = "tenSPTextBox";
             this.tenSPTextBox.Size = new System.Drawing.Size(136, 22);
             this.tenSPTextBox.TabIndex = 160;
@@ -447,7 +454,7 @@
             // giaBanTextBox
             // 
             this.giaBanTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sANPHAMBindingSource, "GiaBan", true));
-            this.giaBanTextBox.Location = new System.Drawing.Point(364, 162);
+            this.giaBanTextBox.Location = new System.Drawing.Point(431, 173);
             this.giaBanTextBox.Name = "giaBanTextBox";
             this.giaBanTextBox.Size = new System.Drawing.Size(135, 22);
             this.giaBanTextBox.TabIndex = 164;
@@ -463,10 +470,10 @@
             this.dataGridViewTextBoxColumn14,
             this.dataGridViewTextBoxColumn15});
             this.sANPHAMDataGridView.DataSource = this.sANPHAMBindingSource;
-            this.sANPHAMDataGridView.Location = new System.Drawing.Point(21, 48);
+            this.sANPHAMDataGridView.Location = new System.Drawing.Point(6, 31);
             this.sANPHAMDataGridView.Name = "sANPHAMDataGridView";
             this.sANPHAMDataGridView.RowTemplate.Height = 24;
-            this.sANPHAMDataGridView.Size = new System.Drawing.Size(264, 220);
+            this.sANPHAMDataGridView.Size = new System.Drawing.Size(354, 220);
             this.sANPHAMDataGridView.TabIndex = 157;
             // 
             // dataGridViewTextBoxColumn11
@@ -501,7 +508,7 @@
             // 
             // btn_XoaSP
             // 
-            this.btn_XoaSP.Location = new System.Drawing.Point(426, 207);
+            this.btn_XoaSP.Location = new System.Drawing.Point(493, 218);
             this.btn_XoaSP.Name = "btn_XoaSP";
             this.btn_XoaSP.Size = new System.Drawing.Size(73, 33);
             this.btn_XoaSP.TabIndex = 156;
@@ -511,7 +518,7 @@
             // 
             // btn_ThemSP
             // 
-            this.btn_ThemSP.Location = new System.Drawing.Point(308, 207);
+            this.btn_ThemSP.Location = new System.Drawing.Point(375, 218);
             this.btn_ThemSP.Name = "btn_ThemSP";
             this.btn_ThemSP.Size = new System.Drawing.Size(73, 33);
             this.btn_ThemSP.TabIndex = 157;
@@ -522,7 +529,7 @@
             // maHDTextBox1
             // 
             this.maHDTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cHITIETHOADON1BindingSource, "MaHD", true));
-            this.maHDTextBox1.Location = new System.Drawing.Point(363, 38);
+            this.maHDTextBox1.Location = new System.Drawing.Point(430, 49);
             this.maHDTextBox1.Name = "maHDTextBox1";
             this.maHDTextBox1.Size = new System.Drawing.Size(136, 22);
             this.maHDTextBox1.TabIndex = 4;
@@ -563,16 +570,9 @@
             // 
             this.sANPHAMTableAdapter.ClearBeforeFill = true;
             // 
-            // txtSoLuong
-            // 
-            this.txtSoLuong.Location = new System.Drawing.Point(363, 131);
-            this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(136, 22);
-            this.txtSoLuong.TabIndex = 165;
-            // 
             // FormDonHang
             // 
-            this.ClientSize = new System.Drawing.Size(1127, 815);
+            this.ClientSize = new System.Drawing.Size(1170, 781);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormDonHang";

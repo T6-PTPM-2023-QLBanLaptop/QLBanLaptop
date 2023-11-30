@@ -70,7 +70,7 @@
             // maKHLabel
             // 
             maKHLabel.AutoSize = true;
-            maKHLabel.Location = new System.Drawing.Point(45, 26);
+            maKHLabel.Location = new System.Drawing.Point(103, 52);
             maKHLabel.Name = "maKHLabel";
             maKHLabel.Size = new System.Drawing.Size(105, 17);
             maKHLabel.TabIndex = 1;
@@ -79,7 +79,7 @@
             // tenKHLabel
             // 
             tenKHLabel.AutoSize = true;
-            tenKHLabel.Location = new System.Drawing.Point(45, 72);
+            tenKHLabel.Location = new System.Drawing.Point(103, 108);
             tenKHLabel.Name = "tenKHLabel";
             tenKHLabel.Size = new System.Drawing.Size(111, 17);
             tenKHLabel.TabIndex = 3;
@@ -88,7 +88,7 @@
             // ngaySinhLabel
             // 
             ngaySinhLabel.AutoSize = true;
-            ngaySinhLabel.Location = new System.Drawing.Point(46, 128);
+            ngaySinhLabel.Location = new System.Drawing.Point(104, 154);
             ngaySinhLabel.Name = "ngaySinhLabel";
             ngaySinhLabel.Size = new System.Drawing.Size(71, 17);
             ngaySinhLabel.TabIndex = 5;
@@ -97,7 +97,7 @@
             // gioiTinhLabel
             // 
             gioiTinhLabel.AutoSize = true;
-            gioiTinhLabel.Location = new System.Drawing.Point(604, 22);
+            gioiTinhLabel.Location = new System.Drawing.Point(662, 48);
             gioiTinhLabel.Name = "gioiTinhLabel";
             gioiTinhLabel.Size = new System.Drawing.Size(60, 17);
             gioiTinhLabel.TabIndex = 7;
@@ -106,7 +106,7 @@
             // diaChiLabel
             // 
             diaChiLabel.AutoSize = true;
-            diaChiLabel.Location = new System.Drawing.Point(604, 75);
+            diaChiLabel.Location = new System.Drawing.Point(662, 108);
             diaChiLabel.Name = "diaChiLabel";
             diaChiLabel.Size = new System.Drawing.Size(51, 17);
             diaChiLabel.TabIndex = 9;
@@ -115,7 +115,7 @@
             // sDTLabel
             // 
             sDTLabel.AutoSize = true;
-            sDTLabel.Location = new System.Drawing.Point(604, 128);
+            sDTLabel.Location = new System.Drawing.Point(662, 175);
             sDTLabel.Name = "sDTLabel";
             sDTLabel.Size = new System.Drawing.Size(40, 17);
             sDTLabel.TabIndex = 11;
@@ -133,10 +133,10 @@
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
             this.kHACHHANGDataGridView.DataSource = this.kHACHHANGBindingSource;
-            this.kHACHHANGDataGridView.Location = new System.Drawing.Point(49, 286);
+            this.kHACHHANGDataGridView.Location = new System.Drawing.Point(117, 390);
             this.kHACHHANGDataGridView.Name = "kHACHHANGDataGridView";
             this.kHACHHANGDataGridView.RowTemplate.Height = 24;
-            this.kHACHHANGDataGridView.Size = new System.Drawing.Size(884, 220);
+            this.kHACHHANGDataGridView.Size = new System.Drawing.Size(884, 256);
             this.kHACHHANGDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -188,23 +188,25 @@
             // maKHTextBox
             // 
             this.maKHTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "MaKH", true));
-            this.maKHTextBox.Location = new System.Drawing.Point(212, 21);
+            this.maKHTextBox.Location = new System.Drawing.Point(270, 47);
+            this.maKHTextBox.Multiline = true;
             this.maKHTextBox.Name = "maKHTextBox";
-            this.maKHTextBox.Size = new System.Drawing.Size(200, 22);
+            this.maKHTextBox.Size = new System.Drawing.Size(200, 34);
             this.maKHTextBox.TabIndex = 2;
             // 
             // tenKHTextBox
             // 
             this.tenKHTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "TenKH", true));
-            this.tenKHTextBox.Location = new System.Drawing.Point(212, 70);
+            this.tenKHTextBox.Location = new System.Drawing.Point(270, 101);
+            this.tenKHTextBox.Multiline = true;
             this.tenKHTextBox.Name = "tenKHTextBox";
-            this.tenKHTextBox.Size = new System.Drawing.Size(200, 22);
+            this.tenKHTextBox.Size = new System.Drawing.Size(200, 35);
             this.tenKHTextBox.TabIndex = 4;
             // 
             // ngaySinhDateTimePicker
             // 
             this.ngaySinhDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.kHACHHANGBindingSource, "NgaySinh", true));
-            this.ngaySinhDateTimePicker.Location = new System.Drawing.Point(212, 121);
+            this.ngaySinhDateTimePicker.Location = new System.Drawing.Point(270, 154);
             this.ngaySinhDateTimePicker.Name = "ngaySinhDateTimePicker";
             this.ngaySinhDateTimePicker.Size = new System.Drawing.Size(200, 22);
             this.ngaySinhDateTimePicker.TabIndex = 6;
@@ -212,32 +214,35 @@
             // gioiTinhTextBox
             // 
             this.gioiTinhTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "GioiTinh", true));
-            this.gioiTinhTextBox.Location = new System.Drawing.Point(713, 19);
+            this.gioiTinhTextBox.Location = new System.Drawing.Point(771, 45);
+            this.gioiTinhTextBox.Multiline = true;
             this.gioiTinhTextBox.Name = "gioiTinhTextBox";
-            this.gioiTinhTextBox.Size = new System.Drawing.Size(220, 22);
+            this.gioiTinhTextBox.Size = new System.Drawing.Size(220, 36);
             this.gioiTinhTextBox.TabIndex = 8;
             // 
             // diaChiTextBox
             // 
             this.diaChiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "DiaChi", true));
-            this.diaChiTextBox.Location = new System.Drawing.Point(713, 72);
+            this.diaChiTextBox.Location = new System.Drawing.Point(771, 105);
+            this.diaChiTextBox.Multiline = true;
             this.diaChiTextBox.Name = "diaChiTextBox";
-            this.diaChiTextBox.Size = new System.Drawing.Size(220, 22);
+            this.diaChiTextBox.Size = new System.Drawing.Size(220, 33);
             this.diaChiTextBox.TabIndex = 10;
             // 
             // sDTTextBox
             // 
             this.sDTTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.kHACHHANGBindingSource, "SDT", true));
-            this.sDTTextBox.Location = new System.Drawing.Point(713, 125);
+            this.sDTTextBox.Location = new System.Drawing.Point(771, 165);
+            this.sDTTextBox.Multiline = true;
             this.sDTTextBox.Name = "sDTTextBox";
-            this.sDTTextBox.Size = new System.Drawing.Size(220, 22);
+            this.sDTTextBox.Size = new System.Drawing.Size(220, 35);
             this.sDTTextBox.TabIndex = 12;
             // 
             // btn_sua
             // 
-            this.btn_sua.Location = new System.Drawing.Point(522, 196);
+            this.btn_sua.Location = new System.Drawing.Point(609, 261);
             this.btn_sua.Name = "btn_sua";
-            this.btn_sua.Size = new System.Drawing.Size(130, 53);
+            this.btn_sua.Size = new System.Drawing.Size(155, 74);
             this.btn_sua.TabIndex = 150;
             this.btn_sua.Text = "Sửa";
             this.btn_sua.UseVisualStyleBackColor = true;
@@ -245,9 +250,9 @@
             // 
             // btn_xoa
             // 
-            this.btn_xoa.Location = new System.Drawing.Point(308, 196);
+            this.btn_xoa.Location = new System.Drawing.Point(367, 261);
             this.btn_xoa.Name = "btn_xoa";
-            this.btn_xoa.Size = new System.Drawing.Size(130, 53);
+            this.btn_xoa.Size = new System.Drawing.Size(155, 74);
             this.btn_xoa.TabIndex = 151;
             this.btn_xoa.Text = "Xóa ";
             this.btn_xoa.UseVisualStyleBackColor = true;
@@ -255,9 +260,9 @@
             // 
             // btn_them
             // 
-            this.btn_them.Location = new System.Drawing.Point(111, 196);
+            this.btn_them.Location = new System.Drawing.Point(117, 261);
             this.btn_them.Name = "btn_them";
-            this.btn_them.Size = new System.Drawing.Size(130, 53);
+            this.btn_them.Size = new System.Drawing.Size(155, 74);
             this.btn_them.TabIndex = 152;
             this.btn_them.Text = "Thêm";
             this.btn_them.UseVisualStyleBackColor = true;
@@ -270,8 +275,11 @@
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.CHITIETHOADON1TableAdapter = null;
+            this.tableAdapterManager.CHITIETHOADONTableAdapter = null;
             this.tableAdapterManager.HOADONTableAdapter = null;
             this.tableAdapterManager.KHACHHANGTableAdapter = this.kHACHHANGTableAdapter;
+            this.tableAdapterManager.KHOHANGTableAdapter = null;
             this.tableAdapterManager.NHACUNGCAPTableAdapter = null;
             this.tableAdapterManager.NHANVIENTableAdapter = null;
             this.tableAdapterManager.PHANQUYENTableAdapter = null;
@@ -281,9 +289,9 @@
             // 
             // btn_clear
             // 
-            this.btn_clear.Location = new System.Drawing.Point(728, 196);
+            this.btn_clear.Location = new System.Drawing.Point(836, 261);
             this.btn_clear.Name = "btn_clear";
-            this.btn_clear.Size = new System.Drawing.Size(130, 53);
+            this.btn_clear.Size = new System.Drawing.Size(155, 74);
             this.btn_clear.TabIndex = 153;
             this.btn_clear.Text = "Làm mới";
             this.btn_clear.UseVisualStyleBackColor = true;
@@ -293,7 +301,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1004, 529);
+            this.ClientSize = new System.Drawing.Size(1132, 674);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_sua);
             this.Controls.Add(this.btn_xoa);

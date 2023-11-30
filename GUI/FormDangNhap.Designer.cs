@@ -47,7 +47,7 @@
             this.btn_dangnhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
             this.btn_dangnhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_dangnhap.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_dangnhap.Location = new System.Drawing.Point(76, 437);
+            this.btn_dangnhap.Location = new System.Drawing.Point(120, 485);
             this.btn_dangnhap.Margin = new System.Windows.Forms.Padding(4);
             this.btn_dangnhap.Name = "btn_dangnhap";
             this.btn_dangnhap.Size = new System.Drawing.Size(132, 45);
@@ -59,7 +59,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Location = new System.Drawing.Point(76, 391);
+            this.panel2.Location = new System.Drawing.Point(120, 439);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(307, 1);
@@ -72,7 +72,7 @@
             this.txt_matkhau.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_matkhau.ForeColor = System.Drawing.Color.White;
             this.txt_matkhau.HideSelection = false;
-            this.txt_matkhau.Location = new System.Drawing.Point(131, 361);
+            this.txt_matkhau.Location = new System.Drawing.Point(175, 409);
             this.txt_matkhau.Margin = new System.Windows.Forms.Padding(4);
             this.txt_matkhau.Name = "txt_matkhau";
             this.txt_matkhau.Size = new System.Drawing.Size(239, 23);
@@ -85,7 +85,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(75, 304);
+            this.panel1.Location = new System.Drawing.Point(119, 352);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(307, 1);
@@ -98,7 +98,7 @@
             this.txt_taikhoan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_taikhoan.ForeColor = System.Drawing.Color.White;
             this.txt_taikhoan.HideSelection = false;
-            this.txt_taikhoan.Location = new System.Drawing.Point(129, 273);
+            this.txt_taikhoan.Location = new System.Drawing.Point(173, 321);
             this.txt_taikhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txt_taikhoan.Name = "txt_taikhoan";
             this.txt_taikhoan.Size = new System.Drawing.Size(239, 23);
@@ -112,7 +112,7 @@
             this.btn_huybo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
             this.btn_huybo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_huybo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_huybo.Location = new System.Drawing.Point(263, 437);
+            this.btn_huybo.Location = new System.Drawing.Point(307, 485);
             this.btn_huybo.Margin = new System.Windows.Forms.Padding(4);
             this.btn_huybo.Name = "btn_huybo";
             this.btn_huybo.Size = new System.Drawing.Size(119, 45);
@@ -124,7 +124,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::GUI.Properties.Resources.password;
-            this.pictureBox3.Location = new System.Drawing.Point(75, 347);
+            this.pictureBox3.Location = new System.Drawing.Point(119, 395);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(40, 37);
@@ -135,7 +135,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::GUI.Properties.Resources.username;
-            this.pictureBox2.Location = new System.Drawing.Point(73, 260);
+            this.pictureBox2.Location = new System.Drawing.Point(117, 308);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(40, 37);
@@ -146,7 +146,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::GUI.Properties.Resources._11zon_cropped;
-            this.pictureBox1.Location = new System.Drawing.Point(131, 24);
+            this.pictureBox1.Location = new System.Drawing.Point(175, 72);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 185);
@@ -159,7 +159,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(458, 538);
+            this.ClientSize = new System.Drawing.Size(553, 650);
             this.Controls.Add(this.btn_huybo);
             this.Controls.Add(this.btn_dangnhap);
             this.Controls.Add(this.panel2);

@@ -67,7 +67,7 @@
             // maSPLabel
             // 
             maSPLabel.AutoSize = true;
-            maSPLabel.Location = new System.Drawing.Point(74, 42);
+            maSPLabel.Location = new System.Drawing.Point(208, 56);
             maSPLabel.Name = "maSPLabel";
             maSPLabel.Size = new System.Drawing.Size(97, 17);
             maSPLabel.TabIndex = 2;
@@ -76,7 +76,7 @@
             // tenSPLabel
             // 
             tenSPLabel.AutoSize = true;
-            tenSPLabel.Location = new System.Drawing.Point(74, 91);
+            tenSPLabel.Location = new System.Drawing.Point(208, 105);
             tenSPLabel.Name = "tenSPLabel";
             tenSPLabel.Size = new System.Drawing.Size(103, 17);
             tenSPLabel.TabIndex = 4;
@@ -85,7 +85,7 @@
             // soLuongLabel
             // 
             soLuongLabel.AutoSize = true;
-            soLuongLabel.Location = new System.Drawing.Point(74, 140);
+            soLuongLabel.Location = new System.Drawing.Point(208, 154);
             soLuongLabel.Name = "soLuongLabel";
             soLuongLabel.Size = new System.Drawing.Size(68, 17);
             soLuongLabel.TabIndex = 6;
@@ -94,7 +94,7 @@
             // giaBanLabel
             // 
             giaBanLabel.AutoSize = true;
-            giaBanLabel.Location = new System.Drawing.Point(481, 37);
+            giaBanLabel.Location = new System.Drawing.Point(615, 51);
             giaBanLabel.Name = "giaBanLabel";
             giaBanLabel.Size = new System.Drawing.Size(62, 17);
             giaBanLabel.TabIndex = 8;
@@ -103,7 +103,7 @@
             // maNCCLabel
             // 
             maNCCLabel.AutoSize = true;
-            maNCCLabel.Location = new System.Drawing.Point(481, 82);
+            maNCCLabel.Location = new System.Drawing.Point(615, 96);
             maNCCLabel.Name = "maNCCLabel";
             maNCCLabel.Size = new System.Drawing.Size(121, 17);
             maNCCLabel.TabIndex = 10;
@@ -126,6 +126,8 @@
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.CHITIETHOADON1TableAdapter = null;
+            this.tableAdapterManager.CHITIETHOADONTableAdapter = null;
             this.tableAdapterManager.HOADONTableAdapter = null;
             this.tableAdapterManager.KHACHHANGTableAdapter = null;
             this.tableAdapterManager.KHOHANGTableAdapter = null;
@@ -139,7 +141,7 @@
             // maSPTextBox
             // 
             this.maSPTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sANPHAMBindingSource, "MaSP", true));
-            this.maSPTextBox.Location = new System.Drawing.Point(235, 39);
+            this.maSPTextBox.Location = new System.Drawing.Point(369, 53);
             this.maSPTextBox.Name = "maSPTextBox";
             this.maSPTextBox.Size = new System.Drawing.Size(174, 22);
             this.maSPTextBox.TabIndex = 3;
@@ -147,7 +149,7 @@
             // tenSPTextBox
             // 
             this.tenSPTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sANPHAMBindingSource, "TenSP", true));
-            this.tenSPTextBox.Location = new System.Drawing.Point(235, 88);
+            this.tenSPTextBox.Location = new System.Drawing.Point(369, 102);
             this.tenSPTextBox.Name = "tenSPTextBox";
             this.tenSPTextBox.Size = new System.Drawing.Size(174, 22);
             this.tenSPTextBox.TabIndex = 5;
@@ -155,7 +157,7 @@
             // soLuongTextBox
             // 
             this.soLuongTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sANPHAMBindingSource, "SoLuong", true));
-            this.soLuongTextBox.Location = new System.Drawing.Point(235, 137);
+            this.soLuongTextBox.Location = new System.Drawing.Point(369, 151);
             this.soLuongTextBox.Name = "soLuongTextBox";
             this.soLuongTextBox.Size = new System.Drawing.Size(174, 22);
             this.soLuongTextBox.TabIndex = 7;
@@ -163,7 +165,7 @@
             // giaBanTextBox
             // 
             this.giaBanTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sANPHAMBindingSource, "GiaBan", true));
-            this.giaBanTextBox.Location = new System.Drawing.Point(654, 34);
+            this.giaBanTextBox.Location = new System.Drawing.Point(788, 48);
             this.giaBanTextBox.Name = "giaBanTextBox";
             this.giaBanTextBox.Size = new System.Drawing.Size(172, 22);
             this.giaBanTextBox.TabIndex = 9;
@@ -172,16 +174,16 @@
             // 
             this.maNCCComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.sANPHAMBindingSource, "MaNCC", true));
             this.maNCCComboBox.FormattingEnabled = true;
-            this.maNCCComboBox.Location = new System.Drawing.Point(654, 79);
+            this.maNCCComboBox.Location = new System.Drawing.Point(788, 93);
             this.maNCCComboBox.Name = "maNCCComboBox";
             this.maNCCComboBox.Size = new System.Drawing.Size(172, 24);
             this.maNCCComboBox.TabIndex = 11;
             // 
             // btn_them
             // 
-            this.btn_them.Location = new System.Drawing.Point(77, 206);
+            this.btn_them.Location = new System.Drawing.Point(211, 220);
             this.btn_them.Name = "btn_them";
-            this.btn_them.Size = new System.Drawing.Size(130, 53);
+            this.btn_them.Size = new System.Drawing.Size(137, 74);
             this.btn_them.TabIndex = 12;
             this.btn_them.Text = "Thêm";
             this.btn_them.UseVisualStyleBackColor = true;
@@ -189,9 +191,9 @@
             // 
             // btn_xoa
             // 
-            this.btn_xoa.Location = new System.Drawing.Point(252, 206);
+            this.btn_xoa.Location = new System.Drawing.Point(386, 220);
             this.btn_xoa.Name = "btn_xoa";
-            this.btn_xoa.Size = new System.Drawing.Size(130, 53);
+            this.btn_xoa.Size = new System.Drawing.Size(137, 74);
             this.btn_xoa.TabIndex = 12;
             this.btn_xoa.Text = "Xóa ";
             this.btn_xoa.UseVisualStyleBackColor = true;
@@ -199,9 +201,9 @@
             // 
             // btn_sua
             // 
-            this.btn_sua.Location = new System.Drawing.Point(532, 206);
+            this.btn_sua.Location = new System.Drawing.Point(666, 220);
             this.btn_sua.Name = "btn_sua";
-            this.btn_sua.Size = new System.Drawing.Size(130, 53);
+            this.btn_sua.Size = new System.Drawing.Size(137, 74);
             this.btn_sua.TabIndex = 12;
             this.btn_sua.Text = "Sửa";
             this.btn_sua.UseVisualStyleBackColor = true;
@@ -209,9 +211,9 @@
             // 
             // btn_clear
             // 
-            this.btn_clear.Location = new System.Drawing.Point(696, 206);
+            this.btn_clear.Location = new System.Drawing.Point(830, 220);
             this.btn_clear.Name = "btn_clear";
-            this.btn_clear.Size = new System.Drawing.Size(130, 53);
+            this.btn_clear.Size = new System.Drawing.Size(137, 74);
             this.btn_clear.TabIndex = 12;
             this.btn_clear.Text = "Làm mới";
             this.btn_clear.UseVisualStyleBackColor = true;
@@ -219,9 +221,9 @@
             // 
             // btn_xuatexcel
             // 
-            this.btn_xuatexcel.Location = new System.Drawing.Point(654, 130);
+            this.btn_xuatexcel.Location = new System.Drawing.Point(788, 144);
             this.btn_xuatexcel.Name = "btn_xuatexcel";
-            this.btn_xuatexcel.Size = new System.Drawing.Size(172, 37);
+            this.btn_xuatexcel.Size = new System.Drawing.Size(179, 45);
             this.btn_xuatexcel.TabIndex = 12;
             this.btn_xuatexcel.Text = "Xuất Excel";
             this.btn_xuatexcel.UseVisualStyleBackColor = true;
@@ -238,7 +240,7 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
             this.sANPHAMDataGridView.DataSource = this.sANPHAMBindingSource;
-            this.sANPHAMDataGridView.Location = new System.Drawing.Point(77, 289);
+            this.sANPHAMDataGridView.Location = new System.Drawing.Point(218, 364);
             this.sANPHAMDataGridView.Name = "sANPHAMDataGridView";
             this.sANPHAMDataGridView.RowTemplate.Height = 24;
             this.sANPHAMDataGridView.Size = new System.Drawing.Size(749, 231);
@@ -278,7 +280,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(906, 631);
+            this.ClientSize = new System.Drawing.Size(1209, 631);
             this.Controls.Add(this.sANPHAMDataGridView);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_sua);
