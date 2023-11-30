@@ -29,3 +29,12 @@ C:\Users\ASUS\Videos\QLShopLaptop\BLL\bin\Debug\DTO.pdb
 C:\Users\ASUS\Videos\QLShopLaptop\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Videos\QLShopLaptop\BLL\obj\Debug\BLL.dll
 C:\Users\ASUS\Videos\QLShopLaptop\BLL\obj\Debug\BLL.pdb
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\BLL\bin\Debug\BLL.dll
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\BLL\bin\Debug\BLL.pdb
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\BLL\bin\Debug\DAL.dll
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\BLL\bin\Debug\DTO.dll
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\BLL\bin\Debug\DAL.pdb
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\BLL\bin\Debug\DTO.pdb
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\BLL\obj\Debug\BLL.dll
+C:\Users\Dell's\OneDrive\Documents\GitHub\QLShopLaptop\BLL\obj\Debug\BLL.pdb
