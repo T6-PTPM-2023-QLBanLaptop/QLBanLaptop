@@ -44,29 +44,19 @@ Chức năng:
     </tr>
     <tr>
         <td>1</td>
-        <td>Đăng kí, đăng nhập</td>
-        <td>- Cho phép người dùng đăng kí tài khoản mới.</td>
+        <td>Đăng nhập</td>
+        <td>- Cho phép người dùng đăng nhập.</td>
     </tr>
     <tr>
         <td>2</td>
-        <td>Quản lý sản phẩm</td>
+        <td>Quản lý sản phẩm<br>Quản lý khách hàng<br>Quản lý nhân viên<br>Quản lý nhà cung cấp</td>
         <td>
-            - Thêm sản phẩm mới<br>
-            - Xóa sản phẩm <br>
-            - Sửa sản phẩm <br>
+            - Thêm, xóa, sửa<br>
         </td>
     </tr>
     <tr>
-        <td>3</td>
-        <td>Tính năng mua hàng</td>
-        <td>
-            - Cho phép người dùng thêm sản phẩm vào giỏ hàng.<br>
-            - Hiển thị giỏ hàng với tổng tiền và số lượng sản phẩm.
-        </td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Quản lý đơn hàng</td>
+        <td>5</td>
+        <td>Quản lý hóa đơn</td>
         <td>
             - Hiển thị danh sách các đơn hàng.<br>
             - Xem chi tiết đơn hàng.
@@ -83,7 +73,7 @@ Chức năng:
 </table>
 
 ## WEB
-Chức năng: Xem thông tin Sản phẩm, hiển thị danh sách sản phẩm với thông tin chi tiết.<br>
+Chức năng:<br>Xem thông tin Sản phẩm, hiển thị danh sách sản phẩm với thông tin chi tiết.<br>Thêm sản phẩm vào giỏ hàng, mua sản phẩm, thanh toán nhận qua email.<br>
 
 ## AI
 Chức năng: Chat tư vấn sản phẩm, tư vấn sửa chữa(cây quyết định).<br>
